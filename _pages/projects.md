@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Independent Work
-permalink: /independent-work/
+title: Projects
+permalink: /projects/
 description: Reporting, stories and projects developed independently.
 nav: true
 nav_order: 3
