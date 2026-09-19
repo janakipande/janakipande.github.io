@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /published-work/
-title: Published Work
+permalink: /work/
+title: Work
 description: Selected journalism published in ThePrint and other publications.
 nav: true
 nav_order: 2
