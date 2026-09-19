@@ -4,7 +4,7 @@ title: Video
 permalink: /video/
 description: Video journalism and broadcast work for ThePrint.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 ## ThePrint
