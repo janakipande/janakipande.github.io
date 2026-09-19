@@ -7,30 +7,32 @@ nav: true
 nav_order: 3
 ---
 
-## Independent Reporting
+## Ants
 
-These are stories, investigations and reported pieces developed independently, including work that has not yet been published.
-
----
-
-### [STORY TITLE]
-
-*Independent reporting · [Year]*
-
-A short description of the story — what you reported, who or what it examines, and what makes the story significant.
-
-**Reporting:** Interviews · Research · Field reporting
-
-**Status:** Unpublished
+An independent reporting project on ants.
 
 ---
 
-### [STORY TITLE]
+## Medical Tourism
 
-*Independent reporting · [Year]*
+An independent reporting project on medical tourism.
 
-A short description of the story.
+---
 
-**Reporting:** Interviews · Research
+## Beached Turtles
 
-**Status:** Unpublished
+An independent reporting project on beached turtles.
+
+---
+
+## Patta
+
+A reporting project investigating the mystery of patta documents and Chennai's real estate boom.
+
+---
+
+## The Rise of Fungal Diseases
+
+An independent research project and dissertation examining the rise of fungal diseases.
+
+*Academic dissertation · Asian College of Journalism*
