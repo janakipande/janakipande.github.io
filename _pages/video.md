@@ -8,34 +8,30 @@ nav_order: 6
 ---
 
 <style>
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   margin-top: 20px;
 }
 
 .video-card {
-  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 360px;
+  gap: 28px;
+  align-items: center;
+  padding: 22px;
   border: 1px solid #e5e7eb;
   border-radius: 10px;
   background: #fff;
 }
 
-.video-card-image {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  object-position: top;
-  display: block;
-}
-
 .video-card-content {
-  padding: 14px 17px 16px;
+  padding: 4px 0;
 }
 
 .video-card-category {
-  margin-bottom: 6px;
+  margin-bottom: 7px;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -44,27 +40,45 @@ nav_order: 6
 }
 
 .video-card h3 {
-  margin: 0 0 7px;
-  font-size: 17px;
+  margin: 0 0 9px;
+  font-size: 21px;
   line-height: 1.4;
 }
 
 .video-card-description {
-  margin: 0 0 10px;
-  font-size: 13px;
-  line-height: 1.5;
+  margin: 0 0 16px;
+  font-size: 14px;
+  line-height: 1.6;
   color: #666;
+  max-width: 620px;
 }
 
-.video-card a {
+.video-card a.watch-link {
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
 }
 
-@media (max-width: 700px) {
-  .video-grid {
+.video-card-image-link {
+  display: block;
+  line-height: 0;
+}
+
+.video-card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
+
+@media (max-width: 800px) {
+  .video-card {
     grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .video-card-image {
+    width: 100%;
   }
 }
 </style>
@@ -73,13 +87,9 @@ nav_order: 6
 
 Video journalism, interviews, explainers and on-camera work produced for *ThePrint*.
 
-<div class="video-grid">
+<div class="video-list">
 
 <div class="video-card">
-
-<a href="https://www.youtube.com/watch?v=Iy_HxvwfDOM" target="_blank">
-<img class="video-card-image" src="https://img.youtube.com/vi/Iy_HxvwfDOM/hqdefault.jpg" alt="Interview with Sandesh Kadur">
-</a>
 
 <div class="video-card-content">
 
@@ -91,17 +101,18 @@ Video journalism, interviews, explainers and on-camera work produced for *ThePri
 An interview with wildlife filmmaker and conservationist Sandesh Kadur.
 </p>
 
-<a href="https://www.youtube.com/watch?v=Iy_HxvwfDOM" target="_blank">Watch →</a>
+<a class="watch-link" href="https://www.youtube.com/watch?v=Iy_HxvwfDOM" target="_blank">Watch →</a>
 
 </div>
+
+<a class="video-card-image-link" href="https://www.youtube.com/watch?v=Iy_HxvwfDOM" target="_blank">
+<img class="video-card-image" src="https://img.youtube.com/vi/Iy_HxvwfDOM/hqdefault.jpg" alt="Interview with Sandesh Kadur">
+</a>
+
 </div>
 
 
 <div class="video-card">
-
-<a href="https://www.youtube.com/watch?v=1rYDqxuG0xM" target="_blank">
-<img class="video-card-image" src="https://img.youtube.com/vi/1rYDqxuG0xM/hqdefault.jpg" alt="Interview with Pravaha founders">
-</a>
 
 <div class="video-card-content">
 
@@ -113,17 +124,18 @@ An interview with wildlife filmmaker and conservationist Sandesh Kadur.
 An interview with Dr Pramath Raj Sinha and Dr Ajay Kumar, the founders of Pravaha University.
 </p>
 
-<a href="https://www.youtube.com/watch?v=1rYDqxuG0xM" target="_blank">Watch →</a>
+<a class="watch-link" href="https://www.youtube.com/watch?v=1rYDqxuG0xM" target="_blank">Watch →</a>
 
 </div>
+
+<a class="video-card-image-link" href="https://www.youtube.com/watch?v=1rYDqxuG0xM" target="_blank">
+<img class="video-card-image" src="https://img.youtube.com/vi/1rYDqxuG0xM/hqdefault.jpg" alt="Interview with Pravaha founders">
+</a>
+
 </div>
 
 
 <div class="video-card">
-
-<a href="https://www.youtube.com/watch?v=HUJoyQ5Qlo4" target="_blank">
-<img class="video-card-image" src="https://img.youtube.com/vi/HUJoyQ5Qlo4/hqdefault.jpg" alt="Kamakoti profile">
-</a>
 
 <div class="video-card-content">
 
@@ -135,17 +147,18 @@ An interview with Dr Pramath Raj Sinha and Dr Ajay Kumar, the founders of Pravah
 A video profile of IIT Madras director V. Kamakoti.
 </p>
 
-<a href="https://www.youtube.com/watch?v=HUJoyQ5Qlo4" target="_blank">Watch →</a>
+<a class="watch-link" href="https://www.youtube.com/watch?v=HUJoyQ5Qlo4" target="_blank">Watch →</a>
 
 </div>
+
+<a class="video-card-image-link" href="https://www.youtube.com/watch?v=HUJoyQ5Qlo4" target="_blank">
+<img class="video-card-image" src="https://img.youtube.com/vi/HUJoyQ5Qlo4/hqdefault.jpg" alt="Professor V Kamakoti profile">
+</a>
+
 </div>
 
 
 <div class="video-card">
-
-<a href="https://www.youtube.com/watch?v=P7Uog9IXiCw" target="_blank">
-<img class="video-card-image" src="https://img.youtube.com/vi/P7Uog9IXiCw/hqdefault.jpg" alt="Rohan P Naidu profile">
-</a>
 
 <div class="video-card-content">
 
@@ -157,9 +170,14 @@ A video profile of IIT Madras director V. Kamakoti.
 A video profile of astrophysicist Rohan P Naidu.
 </p>
 
-<a href="https://www.youtube.com/watch?v=P7Uog9IXiCw" target="_blank">Watch →</a>
+<a class="watch-link" href="https://www.youtube.com/watch?v=P7Uog9IXiCw" target="_blank">Watch →</a>
 
 </div>
+
+<a class="video-card-image-link" href="https://www.youtube.com/watch?v=P7Uog9IXiCw" target="_blank">
+<img class="video-card-image" src="https://img.youtube.com/vi/P7Uog9IXiCw/hqdefault.jpg" alt="Rohan P Naidu profile">
+</a>
+
 </div>
 
 </div>
