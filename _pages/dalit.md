@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Silent discrimination persists: Dalits avoid conflict
+title: Dalit article
 permalink: /dalit/
 nav: false
 ---
@@ -20,6 +20,14 @@ nav: false
   width: 100%;
   height: auto;
   display: block;
+}
+
+.dalit-location {
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #777;
+  margin: 0 0 18px;
 }
 
 .dalit-headline {
@@ -44,14 +52,6 @@ nav: false
   margin-bottom: 38px;
 }
 
-.dalit-location {
-  font-size: 13px;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: #777;
-  margin-bottom: 18px;
-}
-
 .dalit-body {
   max-width: 760px;
   margin: 0 auto;
@@ -65,7 +65,6 @@ nav: false
 }
 
 @media (max-width: 700px) {
-
   .dalit-headline {
     font-size: 35px;
   }
@@ -80,7 +79,6 @@ nav: false
 }
 </style>
 
-
 <div class="dalit-page">
 
   <div class="dalit-hero">
@@ -88,7 +86,6 @@ nav: false
       src="{{ '/assets/img/dalit.jpg' | relative_url }}"
       alt="Uttarakhand, Tehri Garhwal">
   </div>
-
 
   <p class="dalit-location">
     Uttarakhand, Tehri Garhwal
@@ -105,7 +102,6 @@ nav: false
   <p class="dalit-byline">
     <strong>Janaki Pande</strong>
   </p>
-
 
   <div class="dalit-body">
 
