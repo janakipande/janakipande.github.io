@@ -111,7 +111,7 @@ nav_order: 2
 
 .view-all-text {
   margin: 0;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.5;
   color: #555;
 }
@@ -381,7 +381,7 @@ Five young orangutans were rescued from a forest in Odisha’s Balasore district
 <div class="view-all-plus">+</div>
 
 <p class="view-all-text">
---- View all projects <a href="https://theprint.in/author/janaki-pande/" target="_blank">here</a>.
+View all projects <a href="https://theprint.in/author/janaki-pande/" target="_blank">here</a>.
 </p>
 
 </div>
