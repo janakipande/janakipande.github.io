@@ -26,6 +26,7 @@ nav_order: 6
   width: 100%;
   height: 150px;
   object-fit: cover;
+  object-position: top;
   display: block;
 }
 
@@ -109,7 +110,7 @@ An interview with wildlife filmmaker and conservationist Sandesh Kadur.
 <h3>Interview with Pravaha founders</h3>
 
 <p class="video-card-description">
-An interview with the founders of Pravaha University.
+An interview with Dr Pramath Raj Sinha and Dr Ajay Kumar, the founders of Pravaha University.
 </p>
 
 <a href="https://www.youtube.com/watch?v=1rYDqxuG0xM" target="_blank">Watch →</a>
@@ -128,7 +129,7 @@ An interview with the founders of Pravaha University.
 
 <div class="video-card-category">Profile</div>
 
-<h3>Kamakoti profile</h3>
+<h3>Professor V Kamakoti</h3>
 
 <p class="video-card-description">
 A video profile of IIT Madras director V. Kamakoti.
@@ -150,7 +151,7 @@ A video profile of IIT Madras director V. Kamakoti.
 
 <div class="video-card-category">Profile</div>
 
-<h3>Rohan P Naidu profile</h3>
+<h3>Rohan P Naidu</h3>
 
 <p class="video-card-description">
 A video profile of astrophysicist Rohan P Naidu.
