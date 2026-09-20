@@ -29,22 +29,13 @@ nav: false
 
 .koti-headline {
   max-width: 760px;
-  margin: 0 0 12px;
+  margin: 0 0 45px;
   font-size: 42px;
   line-height: 1.12;
   font-weight: 700;
 }
 
-.koti-subtitle {
-  max-width: 760px;
-  margin: 0 0 40px;
-  font-size: 20px;
-  line-height: 1.5;
-  font-style: italic;
-  color: #666;
-}
-
-/* Article text */
+/* All article paragraphs */
 
 .koti-page p {
   font-size: 17px;
@@ -52,22 +43,19 @@ nav: false
   margin: 0 0 24px;
 }
 
+
 /*
-   FIRST SECTION
-   Text on the left.
-   First image on the right.
+   SECTION 1
+   First three paragraphs on the RIGHT.
+   koti.jpg on the LEFT.
 */
 
 .koti-section-one {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 48%;
+  grid-template-columns: 48% minmax(0, 1fr);
   gap: 42px;
   align-items: start;
-  margin-top: 20px;
-}
-
-.koti-section-one-text {
-  max-width: 650px;
+  margin-top: 10px;
 }
 
 .koti-section-one-image img {
@@ -76,40 +64,59 @@ nav: false
   display: block;
 }
 
-
-/*
-   SECOND SECTION
-   Second image on the left.
-   Text on the right.
-*/
-
-.koti-section-two {
-  display: grid;
-  grid-template-columns: 48% minmax(0, 1fr);
-  gap: 42px;
-  align-items: start;
-  margin-top: 45px;
-}
-
-.koti-section-two-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.koti-section-two-text {
+.koti-section-one-text {
   max-width: 650px;
 }
 
 
 /*
-   FINAL SECTION
-   Final paragraph centred.
+   SECTION 2
+   Next two paragraphs.
+   No photograph.
+   Wide, centred text column.
 */
 
-.koti-final {
+.koti-section-two {
   max-width: 760px;
-  margin: 45px auto 0;
+  margin: 50px auto 0;
+}
+
+
+/*
+   SECTION 3
+   Next three paragraphs on the LEFT.
+   koti2.jpg on the RIGHT.
+*/
+
+.koti-section-three {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 48%;
+  gap: 42px;
+  align-items: start;
+  margin-top: 50px;
+}
+
+.koti-section-three-text {
+  max-width: 650px;
+}
+
+.koti-section-three-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+/*
+   SECTION 4
+   Remaining paragraphs.
+   No photograph.
+   Wide, centred text column.
+*/
+
+.koti-section-four {
+  max-width: 760px;
+  margin: 50px auto 0;
 }
 
 
@@ -119,21 +126,23 @@ nav: false
 
   .koti-headline {
     font-size: 34px;
+    margin-bottom: 35px;
   }
 
   .koti-section-one,
-  .koti-section-two {
+  .koti-section-three {
     display: block;
   }
 
   .koti-section-one-image,
-  .koti-section-two-image {
+  .koti-section-three-image {
     margin-bottom: 30px;
   }
 
   .koti-section-one-text,
-  .koti-section-two-text,
-  .koti-final {
+  .koti-section-three-text,
+  .koti-section-two,
+  .koti-section-four {
     max-width: 760px;
   }
 }
@@ -148,14 +157,19 @@ nav: false
     Challenges of farming amid climate change and migration
   </h1>
 
-  <p class="koti-subtitle">
-    Understanding the struggles of a farmer in Uttarakhand
-  </p>
 
-
-  <!-- FIRST IMAGE + FIRST TEXT BLOCK -->
+  <!-- FIRST 3 PARAGRAPHS
+       IMAGE LEFT, TEXT RIGHT -->
 
   <div class="koti-section-one">
+
+    <div class="koti-section-one-image">
+
+      <img
+        src="{{ '/assets/img/koti.jpg' | relative_url }}"
+        alt="Koti, Uttarakhand">
+
+    </div>
 
     <div class="koti-section-one-text">
 
@@ -171,40 +185,33 @@ nav: false
         When Devi had three children, two girls and a boy, she made sure to send them all to school. Now, they have all migrated, leaving their mother behind to milk the buffaloes, carry dung to the fields, feed the newborn baby goats, and fall asleep to the gentle snores of Rustum, her golden-maned dog who sleeps on a gunny bag beside her cot.
       </p>
 
-      <p>
-        Devi lives with her husband in a house where they recently traded rusty mud walls for the solidity of cold, grey cement. She will paint it later, when her son returns with a bride, but until then, this is enough for her and her little pantheon of deities who sit behind a translucent red veil. Every day, after lighting a lamp and singing a prayer to her Gods, she hoists a heavy basket of dung onto her head and sets out for the field.
-      </p>
-
-    </div>
-
-    <div class="koti-section-one-image">
-
-      <img
-        src="{{ '/assets/img/koti.jpg' | relative_url }}"
-        alt="Koti, Uttarakhand">
-
     </div>
 
   </div>
 
 
-  <!-- SECOND IMAGE + SECOND TEXT BLOCK -->
+  <!-- NEXT 2 PARAGRAPHS
+       NO IMAGE -->
 
   <div class="koti-section-two">
 
-    <div class="koti-section-two-image">
+    <p>
+      Devi lives with her husband in a house where they recently traded rusty mud walls for the solidity of cold, grey cement. She will paint it later, when her son returns with a bride, but until then, this is enough for her and her little pantheon of deities who sit behind a translucent red veil. Every day, after lighting a lamp and singing a prayer to her Gods, she hoists a heavy basket of dung onto her head and sets out for the field.
+    </p>
 
-      <img
-        src="{{ '/assets/img/koti2.jpg' | relative_url }}"
-        alt="Farming in Koti, Uttarakhand">
+    <p>
+      Devi weaves her way through the narrow lanes of Koti, pausing to greet those who pass by her. As the path grows narrower the fields appear, small, fragmented plots, demarcated by boundaries of raised earth. She explains that she had planted ginger in her fields, and a few days ago, with the help of other women, they harvested it. “That is how we do it here,” she says, “One day we harvest my field, the next day we harvest someone else’s.” While the heart of the field has been cleared out, along the fringes, rows of turmeric shoots, flattened by the recent rains, lie entangled on the soil. Devi says that she had planted them as a protective sheath for the ginger. Ginger is a delicate plant, she recounts how easily it gets ruined. To protect it and make sure it remains ‘pure’, she always plants turmeric around it.
+    </p>
 
-    </div>
+  </div>
 
-    <div class="koti-section-two-text">
 
-      <p>
-        Devi weaves her way through the narrow lanes of Koti, pausing to greet those who pass by her. As the path grows narrower the fields appear, small, fragmented plots, demarcated by boundaries of raised earth. She explains that she had planted ginger in her fields, and a few days ago, with the help of other women, they harvested it. “That is how we do it here,” she says, “One day we harvest my field, the next day we harvest someone else’s.” While the heart of the field has been cleared out, along the fringes, rows of turmeric shoots, flattened by the recent rains, lie entangled on the soil. Devi says that she had planted them as a protective sheath for the ginger. Ginger is a delicate plant, she recounts how easily it gets ruined. To protect it and make sure it remains ‘pure’, she always plants turmeric around it.
-      </p>
+  <!-- NEXT 3 PARAGRAPHS
+       TEXT LEFT, IMAGE RIGHT -->
+
+  <div class="koti-section-three">
+
+    <div class="koti-section-three-text">
 
       <p>
         Devi walks through the dew-damp turmeric leaves, sickle swinging rhythmically and gives them a much needed haircut, exposing the spots where the roots lie hidden. Once she has cleared a section, she takes her pick-axe, and with heels digging into the earth, she begins to loosen up the soil around the plant. Eventually, casting aside the pick axe, she grabs the plant with her fist, and pulls until the earth gives way, and orange stubbly fingers of turmeric emerge, carrying with them a fistful of soil. She dusts them off and throws them into the growing pile that she will carry home when she returns for lunch.
@@ -218,18 +225,27 @@ nav: false
         Despite all the changes she has witnessed, Devi is one of the few left whose life is still governed by the rhythms of a traditional Garhwali life. Yet, every time she goes to fetch grass from her buffales, the barren fields serve as constant reminders of a different time–when the mountains echoed with the sounds of farming, buffaloes ploughed the land, and women sang folk songs to keep each other company.
       </p>
 
-      <p>
-        While others left, Devi persisted through changing harvesting cycles, she adjusted to the shifting rainfall patterns, she continued to fetch grass and wood, feed her buffaloes, and keep busy with household chores. But the laborious life that she has led since childhood, a life that once felt effortless, now strains her. “I could do this all day when I was younger,” she says with a weary smile, “but now I get tired.”
-      </p>
+    </div>
+
+    <div class="koti-section-three-image">
+
+      <img
+        src="{{ '/assets/img/koti2.jpg' | relative_url }}"
+        alt="Farming in Koti, Uttarakhand">
 
     </div>
 
   </div>
 
 
-  <!-- FINAL TEXT BLOCK -->
+  <!-- REMAINING PARAGRAPHS
+       NO IMAGE -->
 
-  <div class="koti-final">
+  <div class="koti-section-four">
+
+    <p>
+      While others left, Devi persisted through changing harvesting cycles, she adjusted to the shifting rainfall patterns, she continued to fetch grass and wood, feed her buffaloes, and keep busy with household chores. But the laborious life that she has led since childhood, a life that once felt effortless, now strains her. “I could do this all day when I was younger,” she says with a weary smile, “but now I get tired.”
+    </p>
 
     <p>
       Devi’s life is a paradox. On one hand, life in the village is getting harder. “It is all slowly turning barren,” she says. Yet, she does not want to leave. Despite the ebb and flow of the human tides in the Himalayan landscape, Devi remains committed to her fields and the family of humans and animals alike that wait for her at home. Brushing off some mud on her dark blue kurta, she says, “They have all left, but they’ll realise one day, <em>gaon barabar swarg nahi</em>.” There is no heaven like the village.
