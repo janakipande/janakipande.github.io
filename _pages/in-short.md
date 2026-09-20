@@ -12,6 +12,7 @@ nav_order: 5
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 14px;
   margin-top: 22px;
+  margin-bottom: 55px;
 }
 
 .short-card {
