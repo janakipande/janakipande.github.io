@@ -2,17 +2,29 @@
 layout: page
 title: Video
 permalink: /video/
-description: Video journalism and broadcast work for ThePrint.
 nav: true
 nav_order: 6
 ---
 
 <style>
+.video-intro {
+  font-size: 17px;
+  line-height: 1.6;
+  font-style: italic;
+  color: #333;
+  margin: 0 0 25px;
+}
+
+.video-divider {
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  margin: 0 0 32px;
+}
+
 .video-list {
   display: flex;
   flex-direction: column;
   gap: 14px;
-  margin-top: 20px;
 }
 
 .video-card {
@@ -24,44 +36,33 @@ nav_order: 6
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   background: #fff;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.video-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
 }
 
 .video-card-content {
-  padding: 0;
+  min-width: 0;
 }
 
-.video-card-category {
-  margin-bottom: 4px;
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #777;
-}
-
-.video-card h3 {
-  margin: 0 0 5px;
-  font-size: 16px;
+.video-card-title {
+  margin: 0 0 8px;
+  color: #000 !important;
+  font-size: 19px;
   line-height: 1.35;
+  font-weight: 600;
 }
 
 .video-card-description {
-  margin: 0 0 7px;
-  font-size: 12px;
-  line-height: 1.4;
-  color: #666;
-  max-width: 600px;
-}
-
-.video-card a.watch-link {
-  font-size: 12px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.video-card-image-link {
-  display: block;
-  line-height: 0;
+  margin: 0;
+  color: #333 !important;
+  font-size: 15px;
+  line-height: 1.5;
 }
 
 .video-card-image {
@@ -72,114 +73,117 @@ nav_order: 6
   border-radius: 5px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 650px) {
   .video-card {
     grid-template-columns: 1fr;
-    gap: 10px;
   }
 
   .video-card-image {
-    width: 169px;
-    height: 95px;
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: contain;
   }
 }
 </style>
 
-## ThePrint
+<p class="video-intro">
+  Interviews and on-camera explainers produced at <em>ThePrint</em>.
+</p>
 
-Video journalism, interviews, explainers and on-camera work produced for *ThePrint*.
+<hr class="video-divider">
 
 <div class="video-list">
 
-<div class="video-card">
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=Iy_HxvwfDOM"
+     target="_blank"
+     rel="noopener">
 
-<div class="video-card-content">
+    <div class="video-card-content">
+      <p class="video-card-title">
+        Interview with Sandesh Kadur
+      </p>
 
-<div class="video-card-category">Interview</div>
+      <p class="video-card-description">
+        An interview with wildlife filmmaker and conservationist Sandesh Kadur.
+      </p>
+    </div>
 
-<h3>Interview with Sandesh Kadur</h3>
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/Iy_HxvwfDOM/hqdefault.jpg"
+      alt="Interview with Sandesh Kadur">
 
-<p class="video-card-description">
-An interview with wildlife filmmaker and conservationist Sandesh Kadur.
-</p>
-
-<a class="watch-link" href="https://www.youtube.com/watch?v=Iy_HxvwfDOM" target="_blank">Watch →</a>
-
-</div>
-
-<a class="video-card-image-link" href="https://www.youtube.com/watch?v=Iy_HxvwfDOM" target="_blank">
-<img class="video-card-image" src="https://img.youtube.com/vi/Iy_HxvwfDOM/hqdefault.jpg" alt="Interview with Sandesh Kadur">
-</a>
-
-</div>
-
-
-<div class="video-card">
-
-<div class="video-card-content">
-
-<div class="video-card-category">Interview</div>
-
-<h3>Interview with Pravaha founders</h3>
-
-<p class="video-card-description">
-An interview with Dr Pramath Raj Sinha and Dr Ajay Kumar, the founders of Pravaha University.
-</p>
-
-<a class="watch-link" href="https://www.youtube.com/watch?v=1rYDqxuG0xM" target="_blank">Watch →</a>
-
-</div>
-
-<a class="video-card-image-link" href="https://www.youtube.com/watch?v=1rYDqxuG0xM" target="_blank">
-<img class="video-card-image" src="https://img.youtube.com/vi/1rYDqxuG0xM/hqdefault.jpg" alt="Interview with Pravaha founders">
-</a>
-
-</div>
+  </a>
 
 
-<div class="video-card">
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=1rYDqxuG0xM"
+     target="_blank"
+     rel="noopener">
 
-<div class="video-card-content">
+    <div class="video-card-content">
+      <p class="video-card-title">
+        Interview with Pravaha founders
+      </p>
 
-<div class="video-card-category">Profile</div>
+      <p class="video-card-description">
+        An interview with Dr Pramath Raj Sinha and Dr Ajay Kumar, the founders of Pravaha University.
+      </p>
+    </div>
 
-<h3>Professor V Kamakoti</h3>
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/1rYDqxuG0xM/hqdefault.jpg"
+      alt="Interview with Pravaha founders">
 
-<p class="video-card-description">
-A video profile of IIT Madras director V. Kamakoti.
-</p>
-
-<a class="watch-link" href="https://www.youtube.com/watch?v=HUJoyQ5Qlo4" target="_blank">Watch →</a>
-
-</div>
-
-<a class="video-card-image-link" href="https://www.youtube.com/watch?v=HUJoyQ5Qlo4" target="_blank">
-<img class="video-card-image" src="https://img.youtube.com/vi/HUJoyQ5Qlo4/hqdefault.jpg" alt="Professor V Kamakoti profile">
-</a>
-
-</div>
+  </a>
 
 
-<div class="video-card">
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=HUJoyQ5Qlo4"
+     target="_blank"
+     rel="noopener">
 
-<div class="video-card-content">
+    <div class="video-card-content">
+      <p class="video-card-title">
+        Interview with Kamakoti
+      </p>
 
-<div class="video-card-category">Profile</div>
+      <p class="video-card-description">
+        A video profile of IIT Madras director V. Kamakoti.
+      </p>
+    </div>
 
-<h3>Rohan P Naidu</h3>
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/HUJoyQ5Qlo4/hqdefault.jpg"
+      alt="Video profile of V. Kamakoti">
 
-<p class="video-card-description">
-A video profile of astrophysicist Rohan P Naidu.
-</p>
+  </a>
 
-<a class="watch-link" href="https://www.youtube.com/watch?v=P7Uog9IXiCw" target="_blank">Watch →</a>
 
-</div>
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=P7Uog9IXiCw"
+     target="_blank"
+     rel="noopener">
 
-<a class="video-card-image-link" href="https://www.youtube.com/watch?v=P7Uog9IXiCw" target="_blank">
-<img class="video-card-image" src="https://img.youtube.com/vi/P7Uog9IXiCw/hqdefault.jpg" alt="Rohan P Naidu profile">
-</a>
+    <div class="video-card-content">
+      <p class="video-card-title">
+        Interview with Rohan P Naidu
+      </p>
 
-</div>
+      <p class="video-card-description">
+        A video profile of astrophysicist Rohan P Naidu.
+      </p>
+    </div>
+
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/P7Uog9IXiCw/hqdefault.jpg"
+      alt="Video profile of Rohan P Naidu">
+
+  </a>
 
 </div>
