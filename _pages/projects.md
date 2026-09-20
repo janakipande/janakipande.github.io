@@ -11,7 +11,7 @@ nav_order: 3
   font-size: 20px;
   line-height: 1.4;
   font-style: italic;
-  color: #fff !important;
+  color: #f2f2f2 !important;
   margin: 0 0 10px;
 }
 
@@ -85,7 +85,7 @@ nav_order: 3
   font-size: 20px;
   line-height: 1.4;
   font-style: italic;
-  color: #fff !important;
+  color: #f2f2f2 !important;
   margin: 0 0 10px;
 }
 
@@ -95,30 +95,17 @@ nav_order: 3
   margin: 0 0 35px;
 }
 
-.dissertation-card {
-  display: block;
+.dissertation-section {
   max-width: 700px;
-  border: 1px solid #dcdcdc;
-  border-radius: 10px;
-  padding: 24px;
-  background: #fff;
-  text-decoration: none !important;
-  color: #222 !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
   margin-bottom: 55px;
-}
-
-.dissertation-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 5px 18px rgba(0,0,0,0.08);
 }
 
 .dissertation-label {
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: #777 !important;
-  margin-bottom: 9px;
+  color: #bdbdbd !important;
+  margin: 0 0 9px;
   font-weight: 500;
 }
 
@@ -126,14 +113,24 @@ nav_order: 3
   font-size: 22px;
   line-height: 1.3;
   font-weight: 600;
-  color: #222 !important;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
+}
+
+.dissertation-title a {
+  color: #f2f2f2 !important;
+  text-decoration: none !important;
+}
+
+.dissertation-title a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
 }
 
 .dissertation-description {
   font-size: 15px;
   line-height: 1.5;
-  color: #777 !important;
+  color: #bdbdbd !important;
+  margin: 0;
 }
 
 @media (max-width: 700px) {
@@ -146,6 +143,7 @@ nav_order: 3
   }
 }
 </style>
+
 
 <p class="project-intro">
   Independent longform projects
@@ -265,19 +263,23 @@ nav_order: 3
 <hr class="dissertation-divider">
 
 
-<a class="dissertation-card"
-   href="https://drive.google.com/file/d/1WZ2x1yN5hwP-pY58kxNhQhpgZz8eEnmB/view"
-   target="_blank"
-   rel="noopener">
+<div class="dissertation-section">
 
-  <div class="dissertation-label">DISSERTATION</div>
+  <div class="dissertation-label">
+    DISSERTATION
+  </div>
 
   <div class="dissertation-title">
-    The Rise of Fungal Diseases
+    <a
+      href="https://drive.google.com/file/d/1WZ2x1yN5hwP-pY58kxNhQhpgZz8eEnmB/view"
+      target="_blank"
+      rel="noopener">
+      The Rise of Fungal Diseases
+    </a>
   </div>
 
-  <div class="dissertation-description">
+  <p class="dissertation-description">
     Academic dissertation · Asian College of Journalism
-  </div>
+  </p>
 
-</a>
+</div>
