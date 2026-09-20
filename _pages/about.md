@@ -14,6 +14,11 @@ social: true
 ---
 
 <style>
+.page-subtitle {
+  font-size: 21px !important;
+  font-weight: 500;
+}
+
 .social {
   margin-top: 10px;
 }
@@ -25,8 +30,15 @@ social: true
 .social p {
   display: none !important;
 }
-</style>
 
+.page a {
+  color: #1a73e8 !important;
+}
+
+.page a:hover {
+  color: #1558b0 !important;
+}
+</style>
 
 I am a journalist with [*ThePrint*](https://theprint.in/author/janaki-pande/)’s science and environment team, where I report on science, climate, health and the people driving research. My work focuses on simplifying complex subjects and telling stories about how science shapes our everyday lives.
 
