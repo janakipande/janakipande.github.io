@@ -7,9 +7,19 @@ nav_order: 5
 ---
 
 <style>
+.short-section-title {
+  font-size: 20px;
+  line-height: 1.3;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
 .short-grid {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 14px;
   margin-top: 22px;
   margin-bottom: 55px;
@@ -56,12 +66,6 @@ nav_order: 5
   color: #888;
 }
 
-@media (max-width: 1100px) {
-  .short-grid {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-}
-
 @media (max-width: 850px) {
   .short-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -87,7 +91,7 @@ nav_order: 5
 }
 </style>
 
-## Science & Technology
+<h2 class="short-section-title">Science &amp; Technology</h2>
 
 <div class="short-grid">
 
@@ -134,14 +138,14 @@ nav_order: 5
 <a class="short-card" href="https://theprint.in/science/buried-underwear-splash-free-urinals-cockroach-milk-ig-nobel-winners-2026/3033661/" target="_blank">
 <div>
 <div class="short-icon">🏆</div>
-<h3>Buried underwear, splash-free urinals & cockroach milk: Ig Nobel winners</h3>
+<h3>Buried underwear, splash-free urinals &amp; cockroach milk: Ig Nobel winners</h3>
 </div>
 <div class="short-category">Science</div>
 </a>
 
 </div>
 
-## Environment & Wildlife
+<h2 class="short-section-title">Environment &amp; Wildlife</h2>
 
 <div class="short-grid">
 
@@ -195,7 +199,7 @@ nav_order: 5
 
 </div>
 
-## Health & Society
+<h2 class="short-section-title">Health &amp; Society</h2>
 
 <div class="short-grid">
 
