@@ -11,7 +11,7 @@ nav_order: 3
   font-size: 20px;
   line-height: 1.4;
   font-style: italic;
-  color: #222 !important;
+  color: #fff !important;
   margin: 0 0 10px;
 }
 
@@ -79,6 +79,20 @@ nav_order: 3
   line-height: 1.5;
   color: #666 !important;
   margin: 0;
+}
+
+.dissertation-heading {
+  font-size: 20px;
+  line-height: 1.4;
+  font-style: italic;
+  color: #fff !important;
+  margin: 0 0 10px;
+}
+
+.dissertation-divider {
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  margin: 0 0 35px;
 }
 
 .dissertation-card {
@@ -244,10 +258,12 @@ nav_order: 3
 </div>
 
 
-<hr class="project-divider">
+<p class="dissertation-heading">
+  Dissertation
+</p>
 
+<hr class="dissertation-divider">
 
-## Dissertation
 
 <a class="dissertation-card"
    href="https://drive.google.com/file/d/1WZ2x1yN5hwP-pY58kxNhQhpgZz8eEnmB/view"
