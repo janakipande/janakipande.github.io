@@ -7,6 +7,16 @@ nav_order: 2
 ---
 
 <style>
+.work-section-title {
+  font-size: 20px;
+  line-height: 1.3;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
 .work-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -55,6 +65,7 @@ nav_order: 2
   margin: 0 0 7px;
   font-size: 16px;
   line-height: 1.4;
+  color: #000 !important;
 }
 
 .work-card-description {
@@ -85,7 +96,7 @@ nav_order: 2
 }
 </style>
 
-## Ground Reports
+<h2 class="work-section-title">Ground Reports</h2>
 
 <div class="work-grid">
 
@@ -120,7 +131,7 @@ How AI is changing what students and researchers are learning at Indian institut
 <h3>Leopards vs all — Mangar Bani villagers are stuck</h3>
 
 <p class="work-card-description">
-Reporting from Mangar Bani on growing conflict between leopards and villagers.
+For Mangar’s livestock-dependent families, living alongside leopards comes with a growing cost.
 </p>
 
 <a class="read-link" href="https://theprint.in/ground-reports/mangar-bani-leopard-conflict-villagers-are-stuck/3043614/" target="_blank">Read here →</a>
@@ -137,10 +148,10 @@ Reporting from Mangar Bani on growing conflict between leopards and villagers.
 
 <div class="work-card-category">Ground Report</div>
 
-<h3>Noida deer park: Delhi mistakes Hauz Khas</h3>
+<h3>Noida is building a deer park. Will Delhi’s mistakes follow?</h3>
 
 <p class="work-card-description">
-A ground report on the confusion surrounding Noida's deer park.
+How many deer can an urban park sustain before conservation becomes containment?
 </p>
 
 <a class="read-link" href="https://theprint.in/ground-reports/noida-deer-park-delhi-mistakes-hauz-khas/2954677/" target="_blank">Read here →</a>
@@ -151,7 +162,7 @@ A ground report on the confusion surrounding Noida's deer park.
 </div>
 
 
-## Profiles & Features
+<h2 class="work-section-title">Profiles &amp; Features</h2>
 
 <div class="work-grid">
 
@@ -163,10 +174,10 @@ A ground report on the confusion surrounding Noida's deer park.
 
 <div class="work-card-category">Profile</div>
 
-<h3>Neuroscience’s India moment: The IIT engineer who pioneered it</h3>
+<h3>Neuroscience is having its India moment. An engineer pioneered it</h3>
 
 <p class="work-card-description">
-The story of neuroscience research and the people behind it in India.
+Mriganka Sur chose electrical engineering at IIT Kanpur, but he never abandoned his fascination with the brain.
 </p>
 
 <a class="read-link" href="https://theprint.in/feature/neuroscience-india-moment-iit-kanpur-engineer-pioneered-it/2992869/" target="_blank">Read here →</a>
@@ -206,7 +217,7 @@ The story of astrophysicist Rohan Naidu and his path to a major discovery.
 <h3>Two Chennai techies are studying local fish — their photo guide is here</h3>
 
 <p class="work-card-description">
-A field guide documenting Chennai's overlooked fish species.
+The duo are on a quest to remind people of Chennai’s forgotten freshwater fish.
 </p>
 
 <a class="read-link" href="https://theprint.in/feature/two-chennai-techies-are-studying-local-fish-their-photo-guide-on-forgotten-species-is-here/3030885/" target="_blank">Read here →</a>
@@ -223,10 +234,10 @@ A field guide documenting Chennai's overlooked fish species.
 
 <div class="work-card-category">Profile</div>
 
-<h3>Kamakoti: IIT grad, passport failed, JEE reform & NTA</h3>
+<h3>Kamakoti is not the typical IIT grad: </h3>
 
 <p class="work-card-description">
-A profile of IIT Madras director V. Kamakoti.
+At IIT Madras, Kamakoti built the institution’s chip design programme from scratch.
 </p>
 
 <a class="read-link" href="https://theprint.in/feature/kamakoti-iit-grad-passport-failed-jee-reform-nta/3000778/" target="_blank">Read here →</a>
@@ -243,10 +254,10 @@ A profile of IIT Madras director V. Kamakoti.
 
 <div class="work-card-category">Environment</div>
 
-<h3>India’s heatwaves have entered a dangerous new phase</h3>
+<h3>India’s heatwaves have entered a dangerous new phase. The warning sign comes after sunset</h3>
 
 <p class="work-card-description">
-Why the warning signs of India's changing heatwaves are appearing after sunset.
+Birds are falling from the sky, fish are dying in Delhi lakes, and schools are shutting early.
 </p>
 
 <a class="read-link" href="https://theprint.in/opinion/newsmaker-of-the-week/indias-heatwaves-have-entered-a-dangerous-new-phase-the-warning-sign-comes-after-sunset/2939190/" target="_blank">Read here →</a>
@@ -283,10 +294,10 @@ What Indian ecologists are warning about and why El Niño matters for India.
 
 <div class="work-card-category">Wildlife</div>
 
-<h3>The curious case of India’s tiger paradox</h3>
+<h3>The curious case of India’s tiger paradox. Numbers are rising, so are deaths</h3>
 
 <p class="work-card-description">
-Tiger numbers are rising, but so are tiger deaths.
+India is home to an estimated 3,682 wild tigers, nearly 70 per cent of the world’s population.
 </p>
 
 <a class="read-link" href="https://theprint.in/environment/the-curious-case-of-indias-tiger-paradox-tiger-numbers-are-rising-so-are-deaths/2999827/" target="_blank">Read here →</a>
@@ -306,7 +317,7 @@ Tiger numbers are rising, but so are tiger deaths.
 <h3>Orangutans didn’t just land up in Odisha — they were trafficked</h3>
 
 <p class="work-card-description">
-How wildlife experts traced the trafficking of orangutans found in Odisha.
+Five young orangutans were rescued from a forest in Odisha’s Balasore district. 
 </p>
 
 <a class="read-link" href="https://theprint.in/india/orangutans-didnt-just-land-up-in-odisha-balasore-they-were-trafficked-say-wildlife-experts/3037843/" target="_blank">Read here →</a>
@@ -317,7 +328,7 @@ How wildlife experts traced the trafficking of orangutans found in Odisha.
 </div>
 
 
-## Spotlight on Indian Research
+<h2 class="work-section-title">Spotlight on Indian Research</h2>
 
 <div class="work-grid">
 
@@ -329,10 +340,10 @@ How wildlife experts traced the trafficking of orangutans found in Odisha.
 
 <div class="work-card-category">Science</div>
 
-<h3>IIT Madras’ ANCHOR: Human brainstem atlas</h3>
+<h3>A Google Maps for the brain? IIT Madras releases detailed 3D atlas of the brainstem</h3>
 
 <p class="work-card-description">
-A 3D atlas of the human brainstem developed at IIT Madras.
+The atlas aims to transform brain research and disease detection.
 </p>
 
 <a class="read-link" href="https://theprint.in/science/iit-madras-anchor-human-brainstem-atlas/2958723/" target="_blank">Read here →</a>
@@ -369,7 +380,7 @@ The Indian startup developing medical technology and ventilators.
 
 <div class="work-card-category">Science</div>
 
-<h3>IIT Madras & IISc solve a 70-year-old boron riddle</h3>
+<h3>IIT Madras &amp; IISc solve a 70-year-old boron riddle</h3>
 
 <p class="work-card-description">
 Researchers uncover a long-standing mystery involving boron chemistry.
