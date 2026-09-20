@@ -232,22 +232,23 @@ nav_order: 4
   </a>
 
 
-  <div class="himalaya-card">
+  <a class="himalaya-card"
+   href="{{ '/koti/' | relative_url }}">
 
-    <img
-      class="himalaya-card-image"
-      src="{{ '/assets/img/koti.jpg' | relative_url }}"
-      alt="Koti Profile">
+  <img
+    class="himalaya-card-image"
+    src="{{ '/assets/img/koti.jpg' | relative_url }}"
+    alt="Koti Profile">
 
-    <div class="himalaya-card-content">
-      <p class="himalaya-card-label">CLIMATE</p>
+  <div class="himalaya-card-content">
+    <p class="himalaya-card-label">PROFILE</p>
 
-      <p class="himalaya-card-title">
-        The struggles of a farmer in Uttarakhand
-      </p>
-    </div>
-
+    <p class="himalaya-card-title">
+      The struggles of a farmer in Uttarakhand
+    </p>
   </div>
+
+</a>
 
 
   <div class="himalaya-card">
