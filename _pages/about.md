@@ -7,10 +7,11 @@ subtitle: Journalist | Science and Environment
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: true
 
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
+---
 
 <style>
 .social {
@@ -25,10 +26,6 @@ social: true # includes social icons at the bottom of the page
   display: none !important;
 }
 </style>
-
----
-
-
 
 I am a journalist with [*ThePrint*](https://theprint.in/author/janaki-pande/)’s science and environment team, reporting on science, climate, health, and the people and institutions shaping these fields.
 
