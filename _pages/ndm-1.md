@@ -54,7 +54,7 @@ nav: false
   margin: 0 auto;
   font-size: 17px;
   line-height: 1.78;
-  color: #333;
+  color: #f2f2f2;
 }
 
 .ndm-body p {
@@ -66,7 +66,7 @@ nav: false
   line-height: 1.4;
   font-weight: 700;
   font-style: italic;
-  color: #333 !important;
+  color: #f2f2f2 !important;
   margin: 42px 0 20px;
 }
 
