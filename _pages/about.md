@@ -19,7 +19,7 @@ social: true
 }
 
 .social a {
-  font-size: 22px !important;
+  font-size: 26px !important;
 }
 
 .social p {
