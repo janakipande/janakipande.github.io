@@ -11,7 +11,7 @@ nav_order: 6
   font-size: 18px;
   line-height: 1.6;
   font-style: italic;
-  color: #111 !important;
+  color: #f2f2f2 !important;
   font-weight: 500;
   margin: 0 0 25px;
 }
