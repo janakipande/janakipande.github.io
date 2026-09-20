@@ -58,21 +58,22 @@ nav_order: 4
 }
 
 .himalaya-card-content {
-  padding: 18px 18px 20px;
+  padding: 18px 18px 22px;
+}
+
+.himalaya-card-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #777;
+  margin: 0 0 9px;
+  font-weight: 500;
 }
 
 .himalaya-card-title {
   font-size: 19px;
   line-height: 1.35;
   font-weight: 600;
-  margin: 0 0 10px;
-}
-
-.himalaya-card-label {
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #777;
   margin: 0;
 }
 
@@ -80,10 +81,6 @@ nav_order: 4
   border: 0;
   border-top: 1px solid #d9d9d9;
   margin: 45px 0 50px;
-}
-
-.himalaya-section-title {
-  margin-bottom: 0;
 }
 
 @media (max-width: 900px) {
@@ -119,7 +116,7 @@ nav_order: 4
       alt="Himalayas documentary">
     <div class="himalaya-card-content">
       <p class="himalaya-card-title">
-        Himalayas Documentary
+        How is climate change is affecting agriculture in Uttarakhand
       </p>
       <p class="himalaya-card-label">Documentary</p>
     </div>
@@ -135,7 +132,7 @@ nav_order: 4
       alt="Himalayas Shorthand story">
     <div class="himalaya-card-content">
       <p class="himalaya-card-title">
-        Himalayas — Shorthand Story
+        Road expansion in the Himalayas leaves fractures in a fragile ecosystem
       </p>
       <p class="himalaya-card-label">Shorthand</p>
     </div>
@@ -155,10 +152,10 @@ nav_order: 4
      rel="noopener">
     <div class="himalaya-placeholder">🏔️</div>
     <div class="himalaya-card-content">
+      <p class="himalaya-card-label">CLIMATE</p>
       <p class="himalaya-card-title">
         Why the young, rising Himalayas are so prone to disasters
       </p>
-      <p class="himalaya-card-label">ThePrint · Environment</p>
     </div>
   </a>
 
@@ -171,10 +168,10 @@ nav_order: 4
       src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/08/Raul-John-Aju-1-1-e1788251866222-696x392.jpg"
       alt="Nepal flash floods">
     <div class="himalaya-card-content">
+      <p class="himalaya-card-label">CLIMATE</p>
       <p class="himalaya-card-title">
         Nepal’s climate compensation call tests UN Loss and Damage Fund
       </p>
-      <p class="himalaya-card-label">ThePrint · Features</p>
     </div>
   </a>
 
@@ -184,30 +181,30 @@ nav_order: 4
      rel="noopener">
     <div class="himalaya-placeholder">🦟</div>
     <div class="himalaya-card-content">
+      <p class="himalaya-card-label">CLIMATE</p>
       <p class="himalaya-card-title">
         Why mosquitoes have invaded cold Himalayan foothills
       </p>
-      <p class="himalaya-card-label">ThePrint · Science</p>
     </div>
   </a>
 
   <div class="himalaya-card">
     <div class="himalaya-placeholder">🏔️</div>
     <div class="himalaya-card-content">
+      <p class="himalaya-card-label">CLIMATE</p>
       <p class="himalaya-card-title">
         Koti Profile
       </p>
-      <p class="himalaya-card-label">Profile · Coming soon</p>
     </div>
   </div>
 
   <div class="himalaya-card">
     <div class="himalaya-placeholder">🏔️</div>
     <div class="himalaya-card-content">
+      <p class="himalaya-card-label">CLIMATE</p>
       <p class="himalaya-card-title">
         Dalit Article
       </p>
-      <p class="himalaya-card-label">Feature · Coming soon</p>
     </div>
   </div>
 
