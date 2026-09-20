@@ -75,6 +75,7 @@ nav_order: 4
   line-height: 1.35;
   font-weight: 600;
   margin: 0;
+  color: #444 !important;
 }
 
 .himalaya-intro {
@@ -173,7 +174,10 @@ nav_order: 4
      target="_blank"
      rel="noopener">
 
-    <div class="himalaya-placeholder">🏔️</div>
+    <img
+      class="himalaya-card-image"
+      src="{{ '/assets/img/mountain.jpg' | relative_url }}"
+      alt="Himalayas">
 
     <div class="himalaya-card-content">
       <p class="himalaya-card-label">CLIMATE</p>
@@ -212,7 +216,10 @@ nav_order: 4
      target="_blank"
      rel="noopener">
 
-    <div class="himalaya-placeholder">🦟</div>
+    <img
+      class="himalaya-card-image"
+      src="{{ '/assets/img/mosquito.jpg' | relative_url }}"
+      alt="Mosquito">
 
     <div class="himalaya-card-content">
       <p class="himalaya-card-label">CLIMATE</p>
@@ -227,13 +234,16 @@ nav_order: 4
 
   <div class="himalaya-card">
 
-    <div class="himalaya-placeholder">🏔️</div>
+    <img
+      class="himalaya-card-image"
+      src="{{ '/assets/img/koti.jpg' | relative_url }}"
+      alt="Koti Profile">
 
     <div class="himalaya-card-content">
       <p class="himalaya-card-label">CLIMATE</p>
 
       <p class="himalaya-card-title">
-        Koti Profile
+        The struggles of a farmer in Uttarakhand
       </p>
     </div>
 
@@ -242,13 +252,16 @@ nav_order: 4
 
   <div class="himalaya-card">
 
-    <div class="himalaya-placeholder">🏔️</div>
+    <img
+      class="himalaya-card-image"
+      src="{{ '/assets/img/dalit.jpg' | relative_url }}"
+      alt="Dalit Article">
 
     <div class="himalaya-card-content">
       <p class="himalaya-card-label">CLIMATE</p>
 
       <p class="himalaya-card-title">
-        Dalit Article
+        Uttarakhand remains divided by the invisible wall of caste
       </p>
     </div>
 
