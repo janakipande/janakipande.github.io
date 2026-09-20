@@ -46,7 +46,7 @@ nav: false
   line-height: 1.12;
   font-weight: 700;
   margin: 0 0 45px;
-  color: #fff;
+  color: #f2f2f2;
 }
 
 .patta-body {
@@ -54,7 +54,7 @@ nav: false
   margin: 0 auto;
   font-size: 17px;
   line-height: 1.78;
-  color: #333;
+  color: #f2f2f2;
 }
 
 .patta-body p {
@@ -67,7 +67,7 @@ nav: false
   font-weight: 700;
   font-style: italic;
   margin: 42px 0 22px;
-  color: #333;
+  color: #f2f2f2;
 }
 
 @media (max-width: 700px) {
