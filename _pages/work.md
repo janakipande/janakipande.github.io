@@ -10,60 +10,60 @@ nav_order: 2
 .work-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 28px;
-  margin-top: 25px;
+  gap: 22px;
+  margin-top: 20px;
 }
 
 .work-card {
   border: 1px solid #e5e7eb;
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
   background: #fff;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .work-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.07);
 }
 
 .work-card-visual {
-  height: 130px;
+  height: 78px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #f3f4f6;
-  font-size: 42px;
+  font-size: 30px;
 }
 
 .work-card-content {
-  padding: 20px;
+  padding: 14px 17px 16px;
 }
 
 .work-card-category {
-  font-size: 12px;
+  font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: #777;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .work-card h3 {
   font-family: inherit;
-  font-size: 19px;
+  font-size: 17px;
   line-height: 1.4;
-  margin: 0 0 12px 0;
+  margin: 0 0 8px 0;
 }
 
 .work-card-description {
-  font-size: 14px;
-  line-height: 1.6;
+  font-size: 13px;
+  line-height: 1.5;
   color: #666;
-  margin-bottom: 16px;
+  margin-bottom: 11px;
 }
 
 .work-card a.read-link {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   text-decoration: none;
 }
