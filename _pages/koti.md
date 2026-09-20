@@ -25,6 +25,14 @@ nav: false
   font-weight: 500;
 }
 
+/* Date */
+
+.koti-date {
+  margin: -4px 0 12px;
+  font-size: 13px;
+  color: #777 !important;
+}
+
 /* Main headline */
 
 .koti-headline {
@@ -152,6 +160,8 @@ nav: false
 <div class="koti-page">
 
   <p class="koti-kicker">UTTARAKHAND, KOTI</p>
+
+  <p class="koti-date">January 2025</p>
 
   <h1 class="koti-headline">
     Challenges of farming amid climate change and migration
