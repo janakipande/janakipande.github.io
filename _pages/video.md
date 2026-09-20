@@ -11,16 +11,16 @@ nav_order: 6
 .video-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
   margin-top: 20px;
 }
 
 .video-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 360px;
-  gap: 28px;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 22px;
   align-items: center;
-  padding: 22px;
+  padding: 16px;
   border: 1px solid #e5e7eb;
   border-radius: 10px;
   background: #fff;
@@ -31,7 +31,7 @@ nav_order: 6
 }
 
 .video-card-category {
-  margin-bottom: 7px;
+  margin-bottom: 6px;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -40,17 +40,17 @@ nav_order: 6
 }
 
 .video-card h3 {
-  margin: 0 0 9px;
-  font-size: 21px;
+  margin: 0 0 7px;
+  font-size: 18px;
   line-height: 1.4;
 }
 
 .video-card-description {
-  margin: 0 0 16px;
-  font-size: 14px;
-  line-height: 1.6;
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.5;
   color: #666;
-  max-width: 620px;
+  max-width: 520px;
 }
 
 .video-card a.watch-link {
@@ -74,7 +74,7 @@ nav_order: 6
 @media (max-width: 800px) {
   .video-card {
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 16px;
   }
 
   .video-card-image {
