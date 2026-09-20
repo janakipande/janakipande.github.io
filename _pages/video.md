@@ -70,9 +70,10 @@ nav_order: 6
 
 .video-card-description {
   margin: 0;
-  color: #333 !important;
+  color: #555 !important;
   font-size: 15px;
   line-height: 1.5;
+  font-style: italic;
 }
 
 .video-card-image {
