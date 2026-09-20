@@ -27,13 +27,20 @@ nav_order: 2
   box-shadow: 0 6px 18px rgba(0,0,0,0.07);
 }
 
-.work-card-visual {
-  height: 78px;
+.work-card-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.work-card-fallback {
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #f3f4f6;
-  font-size: 30px;
+  font-size: 32px;
 }
 
 .work-card-content {
@@ -72,6 +79,11 @@ nav_order: 2
   .work-grid {
     grid-template-columns: 1fr;
   }
+
+  .work-card-image,
+  .work-card-fallback {
+    height: 170px;
+  }
 }
 </style>
 
@@ -80,7 +92,7 @@ nav_order: 2
 <div class="work-grid">
 
 <div class="work-card">
-<div class="work-card-visual">🤖</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/08/AI-workshop-696x392.jpg" alt="AI workshop at IIT Delhi">
 <div class="work-card-content">
 <div class="work-card-category">Ground Report</div>
 <h3>AI is India’s new learning craze. IIT courses, prompt workshops, research training</h3>
@@ -90,7 +102,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🐆</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/MB1-696x392.jpg" alt="Mangar Bani leopard attack">
 <div class="work-card-content">
 <div class="work-card-category">Ground Report</div>
 <h3>Leopards vs all—Mangar Bani is facing animal-animal conflict, villagers are stuck in between</h3>
@@ -100,7 +112,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🦌</div>
+<div class="work-card-fallback">🦌</div>
 <div class="work-card-content">
 <div class="work-card-category">Ground Report</div>
 <h3>Noida is building a deer park. Will Delhi’s mistakes follow?</h3>
@@ -116,7 +128,7 @@ nav_order: 2
 <div class="work-grid">
 
 <div class="work-card">
-<div class="work-card-visual">🧠</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2022/03/iitm-696x392.jpeg" alt="Sudha Gopalakrishnan Brain Centre at IIT Madras">
 <div class="work-card-content">
 <div class="work-card-category">Profile</div>
 <h3>Neuroscience is having its India moment. An IIT Kanpur engineer pioneered it</h3>
@@ -126,7 +138,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🌌</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/08/Naidu-696x392.jpg" alt="Rohan Naidu">
 <div class="work-card-content">
 <div class="work-card-category">Profile</div>
 <h3>Hyderabad to Hawaii, journey of Rohan Naidu who discovered a black hole star</h3>
@@ -136,7 +148,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🐟</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/1-696x392.jpg" alt="Chennai fish documentation">
 <div class="work-card-content">
 <div class="work-card-category">Feature</div>
 <h3>Two Chennai techies are studying local fish. Their photo guide on forgotten species is here</h3>
@@ -146,7 +158,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🎓</div>
+<div class="work-card-fallback">🎓</div>
 <div class="work-card-content">
 <div class="work-card-category">Profile</div>
 <h3>Kamakoti is not the typical IIT grad. No passport, failed JEE, he is now set to reform the NTA</h3>
@@ -156,7 +168,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🌡️</div>
+<div class="work-card-fallback">🌡️</div>
 <div class="work-card-content">
 <div class="work-card-category">Climate</div>
 <h3>India’s heatwaves have entered a dangerous new phase. The warning sign comes after sunset</h3>
@@ -166,7 +178,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🌊</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/MF-Husain-Rajasthan-exhibition-3-696x392.jpg" alt="El Niño representational image">
 <div class="work-card-content">
 <div class="work-card-category">Environment</div>
 <h3>‘Something big coming’—why 188 Indian ecologists warn of a ‘super’ El Niño</h3>
@@ -176,7 +188,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🐅</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/07/Tiger-696x392.jpg" alt="Tiger">
 <div class="work-card-content">
 <div class="work-card-category">Wildlife</div>
 <h3>The curious case of India’s tiger paradox. Tiger numbers are rising, so are deaths</h3>
@@ -186,7 +198,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🦧</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/Orangutan-696x392.jpg" alt="Orangutans rescued in Odisha">
 <div class="work-card-content">
 <div class="work-card-category">Wildlife</div>
 <h3>Orangutans didn’t just land up in Odisha. They were certainly trafficked, say wildlife experts</h3>
@@ -202,7 +214,7 @@ nav_order: 2
 <div class="work-grid">
 
 <div class="work-card">
-<div class="work-card-visual">🧠</div>
+<div class="work-card-fallback">🧠</div>
 <div class="work-card-content">
 <div class="work-card-category">Indian Research</div>
 <h3>A Google Maps for the brain? IIT Madras releases detailed 3D atlas of human brainstem</h3>
@@ -212,7 +224,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🤖</div>
+<div class="work-card-fallback">🤖</div>
 <div class="work-card-content">
 <div class="work-card-category">Indian Research</div>
 <h3>Solar-panel robots to ICU devices—how IIT Kanpur students start-up moves to AI healthcare</h3>
@@ -222,7 +234,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">⚗️</div>
+<div class="work-card-fallback">⚗️</div>
 <div class="work-card-content">
 <div class="work-card-category">Indian Research</div>
 <h3>IIT-Madras, IISc solve 70-yr-old riddle to understand boron. It’s a chemical breakthrough</h3>
@@ -232,7 +244,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">💧</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/08/biopharmaceutical-wastewater-treatment-696x392.jpg" alt="Biopharmaceutical wastewater treatment">
 <div class="work-card-content">
 <div class="work-card-category">Indian Research</div>
 <h3>Hyderabad researchers have a new way to clean biopharma waste. It’s cheaper, energy-efficient</h3>
@@ -242,7 +254,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🚰</div>
+<div class="work-card-fallback">🚰</div>
 <div class="work-card-content">
 <div class="work-card-category">Indian Research</div>
 <h3>An MIT professor-led startup wants to solve India’s drinking water problem—with a tap filter</h3>
@@ -252,7 +264,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🌸</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/07/Flower1-696x392.jpg" alt="Purple Himalayan flower">
 <div class="work-card-content">
 <div class="work-card-category">Environment</div>
 <h3>Purple Himalayan flower makes a comeback after 158 years — for the first time in Arunachal</h3>
@@ -262,7 +274,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🌳</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/07/Banyan-696x392.jpg" alt="700-year-old banyan tree">
 <div class="work-card-content">
 <div class="work-card-category">Climate</div>
 <h3>700-year-old banyan in Bihar has been a silent chronicler of the climate</h3>
@@ -272,7 +284,7 @@ nav_order: 2
 </div>
 
 <div class="work-card">
-<div class="work-card-visual">🦠</div>
+<div class="work-card-fallback">🦠</div>
 <div class="work-card-content">
 <div class="work-card-category">Indian Research</div>
 <h3>IIT Madras researchers have found why the ocean’s rare bacteria can’t be ignored</h3>
