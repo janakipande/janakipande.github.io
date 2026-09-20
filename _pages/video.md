@@ -8,10 +8,11 @@ nav_order: 6
 
 <style>
 .video-intro {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.6;
   font-style: italic;
-  color: #333;
+  color: #111 !important;
+  font-weight: 500;
   margin: 0 0 25px;
 }
 
@@ -48,6 +49,15 @@ nav_order: 6
 
 .video-card-content {
   min-width: 0;
+}
+
+.video-card-type {
+  margin: 0 0 5px;
+  color: #555 !important;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  font-weight: 600;
 }
 
 .video-card-title {
@@ -101,13 +111,19 @@ nav_order: 6
      rel="noopener">
 
     <div class="video-card-content">
+
+      <p class="video-card-type">
+        INTERVIEW
+      </p>
+
       <p class="video-card-title">
-        Interview with Sandesh Kadur
+        Sandesh Kadur's love letter to the Nilgiris
       </p>
 
       <p class="video-card-description">
         An interview with wildlife filmmaker and conservationist Sandesh Kadur.
       </p>
+
     </div>
 
     <img
@@ -124,13 +140,19 @@ nav_order: 6
      rel="noopener">
 
     <div class="video-card-content">
+
+      <p class="video-card-type">
+        INTERVIEW
+      </p>
+
       <p class="video-card-title">
-        Interview with Pravaha founders
+        Can Pravaha University change Bihar?
       </p>
 
       <p class="video-card-description">
         An interview with Dr Pramath Raj Sinha and Dr Ajay Kumar, the founders of Pravaha University.
       </p>
+
     </div>
 
     <img
@@ -147,13 +169,19 @@ nav_order: 6
      rel="noopener">
 
     <div class="video-card-content">
+
+      <p class="video-card-type">
+        PROFILE
+      </p>
+
       <p class="video-card-title">
-        Interview with Kamakoti
+        V Kamakoti: An academic full of contradictions
       </p>
 
       <p class="video-card-description">
         A video profile of IIT Madras director V. Kamakoti.
       </p>
+
     </div>
 
     <img
@@ -170,13 +198,19 @@ nav_order: 6
      rel="noopener">
 
     <div class="video-card-content">
+
+      <p class="video-card-type">
+        PROFILE
+      </p>
+
       <p class="video-card-title">
-        Interview with Rohan P Naidu
+        Rohan P Naidu: The quizzer who found a black hole star
       </p>
 
       <p class="video-card-description">
         A video profile of astrophysicist Rohan P Naidu.
       </p>
+
     </div>
 
     <img
