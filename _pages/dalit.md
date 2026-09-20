@@ -1,11 +1,15 @@
 ---
 layout: page
-title: Dalit article
+title: ""
 permalink: /dalit/
 nav: false
 ---
 
 <style>
+.page-title {
+  display: none !important;
+}
+
 .dalit-page {
   max-width: 900px;
   margin: 0 auto;
@@ -34,22 +38,8 @@ nav: false
   font-size: 44px;
   line-height: 1.1;
   font-weight: 600;
-  margin: 0 0 14px;
+  margin: 0 0 38px;
   color: #222;
-}
-
-.dalit-subtitle {
-  font-size: 20px;
-  line-height: 1.5;
-  font-style: italic;
-  color: #777;
-  margin: 0 0 22px;
-}
-
-.dalit-byline {
-  font-size: 15px;
-  color: #555;
-  margin-bottom: 38px;
 }
 
 .dalit-body {
@@ -67,10 +57,6 @@ nav: false
 @media (max-width: 700px) {
   .dalit-headline {
     font-size: 35px;
-  }
-
-  .dalit-subtitle {
-    font-size: 18px;
   }
 
   .dalit-body {
@@ -94,14 +80,6 @@ nav: false
   <h1 class="dalit-headline">
     Silent discrimination persists: Dalits avoid conflict
   </h1>
-
-  <p class="dalit-subtitle">
-    Uttarakhand remains divided by the invisible and unsurmountable wall of caste
-  </p>
-
-  <p class="dalit-byline">
-    <strong>Janaki Pande</strong>
-  </p>
 
   <div class="dalit-body">
 
