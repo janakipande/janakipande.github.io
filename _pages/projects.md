@@ -7,11 +7,25 @@ nav_order: 3
 ---
 
 <style>
+.project-intro {
+  font-size: 20px;
+  line-height: 1.4;
+  font-style: italic;
+  color: #222 !important;
+  margin: 0 0 10px;
+}
+
+.project-divider {
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  margin: 0 0 35px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 30px;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 55px;
 }
 
@@ -53,17 +67,18 @@ nav_order: 3
 }
 
 .project-card-title {
-  font-size: 22px;
+  font-size: 19px;
   line-height: 1.3;
   font-weight: 600;
   color: #222 !important;
-  margin: 0;
+  margin: 0 0 9px;
 }
 
-.project-divider {
-  border: 0;
-  border-top: 1px solid #d9d9d9;
-  margin: 50px 0 45px;
+.project-card-description {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666 !important;
+  margin: 0;
 }
 
 .dissertation-card {
@@ -118,9 +133,12 @@ nav_order: 3
 }
 </style>
 
-<p>
-  Reporting, stories and projects developed independently.
+<p class="project-intro">
+  Independent longform projects
 </p>
+
+<hr class="project-divider">
+
 
 <div class="project-grid">
 
@@ -135,8 +153,15 @@ nav_order: 3
       alt="Ants project">
 
     <div class="project-card-content">
-      <div class="project-card-label">PROJECT</div>
-      <div class="project-card-title">Ants</div>
+      <div class="project-card-label">SCIENCE</div>
+
+      <div class="project-card-title">
+        Ants: the 150 years old success story
+      </div>
+
+      <p class="project-card-description">
+        Naturalists, experimentalists, and theoreticians have devoted themselves to these efficient little creatures.
+      </p>
     </div>
 
   </a>
@@ -153,8 +178,15 @@ nav_order: 3
       alt="Medical tourism project">
 
     <div class="project-card-content">
-      <div class="project-card-label">PROJECT</div>
-      <div class="project-card-title">Medical Tourism</div>
+      <div class="project-card-label">HEALTH</div>
+
+      <div class="project-card-title">
+        NDM-1: A tourist and a threat
+      </div>
+
+      <p class="project-card-description">
+        As NDM-1 began its voyage through the bacterial kingdom, it gave bacteria the power to resist a majority of antibiotics.
+      </p>
     </div>
 
   </a>
@@ -171,8 +203,15 @@ nav_order: 3
       alt="Beached turtles project">
 
     <div class="project-card-content">
-      <div class="project-card-label">PROJECT</div>
-      <div class="project-card-title">Beached Turtles</div>
+      <div class="project-card-label">ECOLOGY</div>
+
+      <div class="project-card-title">
+        Over 1,000 dead: Beached turtles demand collaborative effort
+      </div>
+
+      <p class="project-card-description">
+        Ecologists say the turtle crisis points to a larger collapse of the marine ecosystem.
+      </p>
     </div>
 
   </a>
@@ -189,8 +228,15 @@ nav_order: 3
       alt="Patta project">
 
     <div class="project-card-content">
-      <div class="project-card-label">PROJECT</div>
-      <div class="project-card-title">Patta</div>
+      <div class="project-card-label">INFRASTRUCTURE</div>
+
+      <div class="project-card-title">
+        The patta mystery behind Chennai’s rapid development
+      </div>
+
+      <p class="project-card-description">
+        Unproven claims aside, lavishness and relocation threats continue to coexist along either sides of the Buckingham Canal.
+      </p>
     </div>
 
   </a>
