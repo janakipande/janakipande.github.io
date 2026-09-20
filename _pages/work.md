@@ -81,6 +81,52 @@ nav_order: 2
   text-decoration: none;
 }
 
+/* View all projects card */
+
+.view-all-card {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px dashed #cfcfcf;
+  background: #fafafa;
+  padding: 25px;
+}
+
+.view-all-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-all-plus {
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 300;
+  color: #777;
+  margin-bottom: 18px;
+}
+
+.view-all-text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.view-all-text a {
+  color: #1a73e8 !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.view-all-text a:hover {
+  color: #1558b0 !important;
+  text-decoration: underline;
+}
+
 @media (max-width: 1000px) {
   .work-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -323,6 +369,23 @@ Five young orangutans were rescued from a forest in Odisha’s Balasore district
 <a class="read-link" href="https://theprint.in/india/orangutans-didnt-just-land-up-in-odisha-balasore-they-were-trafficked-say-wildlife-experts/3037843/" target="_blank">Read here →</a>
 
 </div>
+</div>
+
+
+<!-- VIEW ALL THEPRINT WORK -->
+
+<div class="work-card view-all-card">
+
+<div class="view-all-content">
+
+<div class="view-all-plus">+</div>
+
+<p class="view-all-text">
+--- View all projects <a href="https://theprint.in/author/janaki-pande/" target="_blank">here</a>.
+</p>
+
+</div>
+
 </div>
 
 </div>
