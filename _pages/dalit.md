@@ -27,19 +27,26 @@ nav: false
 }
 
 .dalit-location {
-  font-size: 13px;
-  letter-spacing: 0.12em;
+  font-size: 16px;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #777;
-  margin: 0 0 18px;
+  color: #777 !important;
+  margin: 0 0 12px;
+  font-weight: 500;
+}
+
+.dalit-date {
+  margin: -4px 0 12px;
+  font-size: 13px;
+  color: #777 !important;
 }
 
 .dalit-headline {
-  font-size: 44px;
-  line-height: 1.1;
-  font-weight: 600;
-  margin: 0 0 38px;
-  color: #222;
+  font-size: 42px;
+  line-height: 1.12;
+  font-weight: 700;
+  margin: 0 0 45px;
+  color: #fff;
 }
 
 .dalit-body {
@@ -56,7 +63,8 @@ nav: false
 
 @media (max-width: 700px) {
   .dalit-headline {
-    font-size: 35px;
+    font-size: 34px;
+    margin-bottom: 35px;
   }
 
   .dalit-body {
@@ -75,6 +83,10 @@ nav: false
 
   <p class="dalit-location">
     Uttarakhand, Tehri Garhwal
+  </p>
+
+  <p class="dalit-date">
+    January 2025
   </p>
 
   <h1 class="dalit-headline">
