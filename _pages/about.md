@@ -15,8 +15,8 @@ social: true
 
 <style>
 .page-subtitle {
-  font-size: 21px !important;
-  font-weight: 500;
+  font-size: 23px !important;
+  font-weight: 600 !important;
 }
 
 .social {
@@ -33,6 +33,7 @@ social: true
 
 .page a {
   color: #1a73e8 !important;
+  text-decoration: underline !important;
 }
 
 .page a:hover {
