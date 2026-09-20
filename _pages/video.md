@@ -11,28 +11,28 @@ nav_order: 6
 .video-list {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 14px;
   margin-top: 20px;
 }
 
 .video-card {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 300px;
-  gap: 22px;
+  grid-template-columns: minmax(0, 1fr) 169px;
+  gap: 20px;
   align-items: center;
-  padding: 16px;
+  padding: 12px 14px;
   border: 1px solid #e5e7eb;
-  border-radius: 10px;
+  border-radius: 8px;
   background: #fff;
 }
 
 .video-card-content {
-  padding: 4px 0;
+  padding: 0;
 }
 
 .video-card-category {
-  margin-bottom: 6px;
-  font-size: 10px;
+  margin-bottom: 4px;
+  font-size: 9px;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -40,21 +40,21 @@ nav_order: 6
 }
 
 .video-card h3 {
-  margin: 0 0 7px;
-  font-size: 18px;
-  line-height: 1.4;
+  margin: 0 0 5px;
+  font-size: 16px;
+  line-height: 1.35;
 }
 
 .video-card-description {
-  margin: 0 0 12px;
-  font-size: 13px;
-  line-height: 1.5;
+  margin: 0 0 7px;
+  font-size: 12px;
+  line-height: 1.4;
   color: #666;
-  max-width: 520px;
+  max-width: 600px;
 }
 
 .video-card a.watch-link {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
   text-decoration: none;
 }
@@ -65,20 +65,22 @@ nav_order: 6
 }
 
 .video-card-image {
-  width: 100%;
-  height: auto;
+  width: 169px;
+  height: 95px;
+  object-fit: contain;
   display: block;
-  border-radius: 6px;
+  border-radius: 5px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .video-card {
     grid-template-columns: 1fr;
-    gap: 16px;
+    gap: 10px;
   }
 
   .video-card-image {
-    width: 100%;
+    width: 169px;
+    height: 95px;
   }
 }
 </style>
