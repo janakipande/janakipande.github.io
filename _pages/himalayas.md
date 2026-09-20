@@ -77,6 +77,14 @@ nav_order: 4
   margin: 0;
 }
 
+.himalaya-intro {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: -10px;
+  margin-bottom: 28px;
+  color: #777;
+}
+
 .himalaya-divider {
   border: 0;
   border-top: 1px solid #d9d9d9;
@@ -102,7 +110,10 @@ nav_order: 4
 }
 </style>
 
-## Documentary & Shorthand
+
+<p class="himalaya-intro">
+  <em>The Himalayas are where some of the most visible impacts of climate change, technological expansion and ecosystem collapse are unfolding.</em>
+</p>
 
 <div class="himalaya-feature-grid">
 
@@ -110,37 +121,48 @@ nav_order: 4
      href="https://www.youtube.com/watch?v=6iCasx5np84"
      target="_blank"
      rel="noopener">
+
     <img
       class="himalaya-card-image"
       src="https://img.youtube.com/vi/6iCasx5np84/maxresdefault.jpg"
       alt="Himalayas documentary">
+
     <div class="himalaya-card-content">
+      <p class="himalaya-card-label">DOCUMENTARY</p>
+
       <p class="himalaya-card-title">
-        How is climate change is affecting agriculture in Uttarakhand
+        Impact of climate change on agriculture in Uttarakhand
       </p>
-      <p class="himalaya-card-label">Documentary</p>
     </div>
+
   </a>
+
 
   <a class="himalaya-card"
      href="https://preview.shorthand.com/gxCpcWyATRo1lQ2z"
      target="_blank"
      rel="noopener">
+
     <img
       class="himalaya-card-image"
       src="{{ '/assets/img/shorthand.jpg' | relative_url }}"
       alt="Himalayas Shorthand story">
+
     <div class="himalaya-card-content">
+      <p class="himalaya-card-label">SHORTHAND</p>
+
       <p class="himalaya-card-title">
         Road expansion in the Himalayas leaves fractures in a fragile ecosystem
       </p>
-      <p class="himalaya-card-label">Shorthand</p>
     </div>
+
   </a>
 
 </div>
 
+
 <hr class="himalaya-divider">
+
 
 ## Features & Profiles
 
@@ -150,62 +172,86 @@ nav_order: 4
      href="https://theprint.in/environment/young-rising-himalayas-prone-disasters/3026893/"
      target="_blank"
      rel="noopener">
+
     <div class="himalaya-placeholder">🏔️</div>
+
     <div class="himalaya-card-content">
       <p class="himalaya-card-label">CLIMATE</p>
+
       <p class="himalaya-card-title">
         Why the young, rising Himalayas are so prone to disasters
       </p>
     </div>
+
   </a>
+
 
   <a class="himalaya-card"
      href="https://theprint.in/feature/nepals-climate-compensation-call-tests-un-loss-and-damage-fund/3034305/"
      target="_blank"
      rel="noopener">
+
     <img
       class="himalaya-card-image"
       src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/08/Raul-John-Aju-1-1-e1788251866222-696x392.jpg"
       alt="Nepal flash floods">
+
     <div class="himalaya-card-content">
       <p class="himalaya-card-label">CLIMATE</p>
+
       <p class="himalaya-card-title">
         Nepal’s climate compensation call tests UN Loss and Damage Fund
       </p>
     </div>
+
   </a>
+
 
   <a class="himalaya-card"
      href="https://theprint.in/science/mosquitoes-malaria-himachal-pradesh-kangra-himalayas/2940934/"
      target="_blank"
      rel="noopener">
+
     <div class="himalaya-placeholder">🦟</div>
+
     <div class="himalaya-card-content">
       <p class="himalaya-card-label">CLIMATE</p>
+
       <p class="himalaya-card-title">
         Why mosquitoes have invaded cold Himalayan foothills
       </p>
     </div>
+
   </a>
 
+
   <div class="himalaya-card">
+
     <div class="himalaya-placeholder">🏔️</div>
+
     <div class="himalaya-card-content">
       <p class="himalaya-card-label">CLIMATE</p>
+
       <p class="himalaya-card-title">
         Koti Profile
       </p>
     </div>
+
   </div>
 
+
   <div class="himalaya-card">
+
     <div class="himalaya-placeholder">🏔️</div>
+
     <div class="himalaya-card-content">
       <p class="himalaya-card-label">CLIMATE</p>
+
       <p class="himalaya-card-title">
         Dalit Article
       </p>
     </div>
+
   </div>
 
 </div>
