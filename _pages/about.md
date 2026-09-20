@@ -27,10 +27,11 @@ social: true
 }
 </style>
 
-I am a journalist with [*ThePrint*](https://theprint.in/author/janaki-pande/)’s science and environment team, reporting on science, climate, health, and the people and institutions shaping these fields.
 
-My work focuses on making complex scientific and environmental research accessible to general readers, while also covering stories at the intersection of science, society and policy. I am particularly interested in the people behind scientific discoveries, the institutions driving research, and how science shapes the world beyond the laboratory.
+I am a journalist with *ThePrint*’s science and environment team, where I report on science, climate, health and the people behind the research. My work focuses on making complex subjects easy to understand and telling stories about how science shapes our everyday lives.
 
-I previously worked on the editorial desk at [*Hindustan Times*](https://www.hindustantimes.com/cities/mumbai-news/in-worli-s-gentrified-bdd-chawls-gen-z-professionals-rub-shoulders-with-original-residents-101761677724692.html), and hold a postgraduate diploma in Integrated Multimedia Journalism from the Asian College of Journalism.
+Before [*ThePrint*](https://theprint.in/author/janaki-pande/), I worked on the editorial desk at [*Hindustan Times*](https://www.hindustantimes.com/cities/mumbai-news/in-worli-s-gentrified-bdd-chawls-gen-z-professionals-rub-shoulders-with-original-residents-101761677724692.html). My writing has also appeared in [*The Wire*](https://thewire.in/author/janaki-pande) and the monthly newsletter of [*The Institute of Mathematical Sciences*](https://www.imsc.res.in/outreach/newsletter/2025/02/congruent-number-problem.html).
+
+I was homeschooled for much of my childhood and travelled across India with my parents, who worked with rural and tribal communities. I later graduated from the [Asian College of Journalism](https://www.asianmedia.org/) with a postgraduate diploma in Integrated Multimedia Journalism.
 
 My writing has also appeared in [*The Wire*](https://thewire.in/author/janaki-pande) and the monthly newsletter of [*The Institute of Mathematical Sciences*](https://www.imsc.res.in/outreach/newsletter/2025/02/congruent-number-problem.html).
