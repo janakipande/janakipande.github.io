@@ -97,7 +97,7 @@ nav: false
   <div class="ants-body">
 
     <p>
-      <strong>CHENNAI:</strong> A fuzzy black dot scurries around Aravind Selvam’s feet, running frantically, its movements blurry and its identity hidden from most. “That’s the Velvet Sugar Ant,” he exclaims softly, as he crouches down next to it, fixes his glasses, and says, “Jomi, come here!” Selvam and Jomi Jose from Palluyir are not experts on ants but their passion for nature brings them to the Egmore museum on a Tuesday afternoon to look through the exhibits and observe the ants that roam the museum gardens.
+      A fuzzy black dot scurries around Aravind Selvam’s feet, running frantically, its movements blurry and its identity hidden from most. “That’s the Velvet Sugar Ant,” he exclaims softly, as he crouches down next to it, fixes his glasses, and says, “Jomi, come here!” Selvam and Jomi Jose from Palluyir are not experts on ants but their passion for nature brings them to the Egmore museum on a Tuesday afternoon to look through the exhibits and observe the ants that roam the museum gardens.
     </p>
 
     <p>
