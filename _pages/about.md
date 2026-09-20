@@ -12,6 +12,20 @@ profile:
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
+<style>
+.social {
+  margin-top: 10px;
+}
+
+.social a {
+  font-size: 18px !important;
+}
+
+.social p {
+  display: none !important;
+}
+</style>
+
 ---
 
 
