@@ -142,7 +142,7 @@ For Mangar’s livestock-dependent families, living alongside leopards comes wit
 
 <div class="work-card">
 
-<div class="work-card-fallback">🦌</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/06/Deer-park-4-696x392.jpg" alt="Noida deer park">
 
 <div class="work-card-content">
 
@@ -151,7 +151,7 @@ For Mangar’s livestock-dependent families, living alongside leopards comes wit
 <h3>Noida is building a deer park. Will Delhi’s mistakes follow?</h3>
 
 <p class="work-card-description">
-How many deer can an urban park sustain before conservation becomes containment?
+Wildlife experts are asking how many deer can an urban park sustain before conservation becomes containment?
 </p>
 
 <a class="read-link" href="https://theprint.in/ground-reports/noida-deer-park-delhi-mistakes-hauz-khas/2954677/" target="_blank">Read here →</a>
@@ -228,16 +228,16 @@ The duo are on a quest to remind people of Chennai’s forgotten freshwater fish
 
 <div class="work-card">
 
-<div class="work-card-fallback">🎓</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/07/Kamakoti-pic-696x392.jpg" alt="V Kamakoti">
 
 <div class="work-card-content">
 
 <div class="work-card-category">Profile</div>
 
-<h3>Kamakoti is not the typical IIT grad: </h3>
+<h3>Kamakoti is not the typical IIT grad</h3>
 
 <p class="work-card-description">
-At IIT Madras, Kamakoti built the institution’s chip design programme from scratch.
+At IIT Madras, Kamakoti built the institution’s chip design programme from scratch, leading up to launching the indigenous Shakti processor in 2014.
 </p>
 
 <a class="read-link" href="https://theprint.in/feature/kamakoti-iit-grad-passport-failed-jee-reform-nta/3000778/" target="_blank">Read here →</a>
@@ -248,7 +248,7 @@ At IIT Madras, Kamakoti built the institution’s chip design programme from scr
 
 <div class="work-card">
 
-<div class="work-card-fallback">🌡️</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/05/cooling-zone--696x392.jpg" alt="Heatwave cooling zone">
 
 <div class="work-card-content">
 
@@ -268,7 +268,7 @@ Birds are falling from the sky, fish are dying in Delhi lakes, and schools are s
 
 <div class="work-card">
 
-<div class="work-card-fallback">🌊</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/MF-Husain-Rajasthan-exhibition-3-696x392.jpg" alt="El Niño story">
 
 <div class="work-card-content">
 
@@ -297,7 +297,7 @@ What Indian ecologists are warning about and why El Niño matters for India.
 <h3>The curious case of India’s tiger paradox. Numbers are rising, so are deaths</h3>
 
 <p class="work-card-description">
-India is home to an estimated 3,682 wild tigers, nearly 70 per cent of the world’s population.
+India is home to an estimated 3,682 wild tigers, nearly 70 per cent of the world’s tiger population.
 </p>
 
 <a class="read-link" href="https://theprint.in/environment/the-curious-case-of-indias-tiger-paradox-tiger-numbers-are-rising-so-are-deaths/2999827/" target="_blank">Read here →</a>
@@ -314,7 +314,7 @@ India is home to an estimated 3,682 wild tigers, nearly 70 per cent of the world
 
 <div class="work-card-category">Wildlife</div>
 
-<h3>Orangutans didn’t just land up in Odisha — they were trafficked</h3>
+<h3>Orangutans didn’t just land up in Odisha. They were certainly trafficked, say wildlife experts</h3>
 
 <p class="work-card-description">
 Five young orangutans were rescued from a forest in Odisha’s Balasore district. 
@@ -334,7 +334,7 @@ Five young orangutans were rescued from a forest in Odisha’s Balasore district
 
 <div class="work-card">
 
-<div class="work-card-fallback">🧠</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/06/ANCHOR-brain-696x392.jpg" alt="IIT Madras brainstem atlas">
 
 <div class="work-card-content">
 
@@ -354,13 +354,13 @@ The atlas aims to transform brain research and disease detection.
 
 <div class="work-card">
 
-<div class="work-card-fallback">🤖</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/08/Norcacc-696x392.jpg" alt="Noccarc Robotics">
 
 <div class="work-card-content">
 
 <div class="work-card-category">Med-tech</div>
 
-<h3>Noccarc Robotics: The startup building ventilators and med-tech</h3>
+<h3>Noccarc Robotics: The Indian startup building ventilators and med-tech</h3>
 
 <p class="work-card-description">
 The Indian startup developing medical technology and ventilators.
@@ -374,13 +374,13 @@ The Indian startup developing medical technology and ventilators.
 
 <div class="work-card">
 
-<div class="work-card-fallback">⚗️</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/06/lalit-modi-test-ipl-1-1-696x392.jpg" alt="Boron research">
 
 <div class="work-card-content">
 
 <div class="work-card-category">Science</div>
 
-<h3>IIT Madras &amp; IISc solve a 70-year-old boron riddle</h3>
+<h3>IIT-Madras, IISc solve 70-yr-old riddle to understand boron</h3>
 
 <p class="work-card-description">
 Researchers uncover a long-standing mystery involving boron chemistry.
@@ -414,7 +414,7 @@ A new technique for treating wastewater from the biopharmaceutical industry.
 
 <div class="work-card">
 
-<div class="work-card-fallback">🚰</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/01/Drinking-water-696x392.jpg" alt="MIT drinking water tap filter">
 
 <div class="work-card-content">
 
@@ -443,7 +443,7 @@ A tap filter designed to tackle drinking water challenges.
 <h3>Scientists rediscover a rare purple Himalayan flower</h3>
 
 <p class="work-card-description">
-A rare Himalayan flower documented in Arunachal Pradesh.
+After 158 years, scientists have spotted a rare purple flower they call the Cyananthus hookeri in Arunachal Pradesh.
 </p>
 
 <a class="read-link" href="https://theprint.in/environment/purple-himalayan-flower-158-years-arunachal-pradesh/2983125/" target="_blank">Read here →</a>
@@ -474,7 +474,7 @@ What an ancient banyan can reveal about its changing environment.
 
 <div class="work-card">
 
-<div class="work-card-fallback">🦠</div>
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/08/marine-bacteria--696x392.jpg" alt="Marine bacteria">
 
 <div class="work-card-content">
 
