@@ -251,21 +251,20 @@ nav_order: 4
 </a>
 
 
-  <div class="himalaya-card">
+<a class="himalaya-card"
+   href="{{ '/dalit/' | relative_url }}">
 
-    <img
-      class="himalaya-card-image"
-      src="{{ '/assets/img/dalit.jpg' | relative_url }}"
-      alt="Dalit Article">
+  <img
+    class="himalaya-card-image"
+    src="{{ '/assets/img/dalit.jpg' | relative_url }}"
+    alt="Silent discrimination persists: Dalits avoid conflict">
 
-    <div class="himalaya-card-content">
-      <p class="himalaya-card-label">CLIMATE</p>
+  <div class="himalaya-card-content">
+    <p class="himalaya-card-label">SOCIETY</p>
 
-      <p class="himalaya-card-title">
-        Uttarakhand remains divided by the invisible wall of caste
-      </p>
-    </div>
-
+    <p class="himalaya-card-title">
+      Silent discrimination persists: Dalits avoid conflict
+    </p>
   </div>
 
-</div>
+</a>
