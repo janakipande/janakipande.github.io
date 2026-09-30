@@ -148,6 +148,26 @@ nav_order: 2
 
 <div class="work-card">
 
+<img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/09/1-7-1-696x464.jpg" alt="Sugarcane fields affected by red rot in Uttar Pradesh">
+
+<div class="work-card-content">
+
+<div class="work-card-category">Ground Report</div>
+
+<h3>Red rot is ravaging UP’s sugarcane belt. Farmers pinning hopes on scientists for a way out</h3>
+
+<p class="work-card-description">
+In western Uttar Pradesh, red rot is devastating sugarcane fields as farmers look to scientists for a way out.
+</p>
+
+<a class="read-link" href="https://theprint.in/ground-reports/red-rot-is-ravaging-ups-sugarcane-belt-farmers-pinning-hopes-on-scientists-for-a-way-out/3056566/" target="_blank">Read here →</a>
+
+</div>
+</div>
+
+
+<div class="work-card">
+
 <img class="work-card-image" src="https://staticprintenglish.theprint.in/wp-content/uploads/2026/08/AI-workshop-696x392.jpg" alt="AI workshop at IIT Delhi">
 
 <div class="work-card-content">
@@ -469,7 +489,7 @@ Researchers uncover a long-standing mystery involving boron chemistry.
 A new technique for treating wastewater from the biopharmaceutical industry.
 </p>
 
-<a class="read-link" href="https://theprint.in/science/hyderabad-researchers-biopharma-waste-technique-energy-efficient/3002807/" target="_blank">Read here →</a>
+<a class="read-link" href="https://theprint.in/science/hyderabad-researchers-biopharma-technique-energy-efficient/3002807/" target="_blank">Read here →</a>
 
 </div>
 </div>
