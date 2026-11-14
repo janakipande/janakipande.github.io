@@ -1,4 +1,3 @@
-
 ---
 layout: page
 permalink: /work/
@@ -146,6 +145,46 @@ nav_order: 2
 <h2 class="work-section-title">Ground Reports</h2>
 
 <div class="work-grid">
+
+<div class="work-card">
+
+<div class="work-card-fallback">🌾</div>
+
+<div class="work-card-content">
+
+<div class="work-card-category">Ground Report</div>
+
+<h3>How Shahjahanpur brought down stubble burning fires</h3>
+
+<p class="work-card-description">
+Inside the district-level push, crop residue baler operations, and farmer incentives curbing farm fires in Uttar Pradesh.
+</p>
+
+<a class="read-link" href="https://theprint.in/ground-reports/how-shahjahanpur-brought-down-stubble-burning-fires/3093251/" target="_blank">Read here →</a>
+
+</div>
+</div>
+
+
+<div class="work-card">
+
+<div class="work-card-fallback">🦩</div>
+
+<div class="work-card-content">
+
+<div class="work-card-category">Ground Report</div>
+
+<h3>Two bustards, one shrinking desert: The race to save Rajasthan’s Great Indian Bustard</h3>
+
+<p class="work-card-description">
+Habitat loss, power line hazards, and captive breeding efforts in Rajasthan’s Desert National Park as fewer than 150 birds remain.
+</p>
+
+<a class="read-link" href="https://theprint.in/ground-reports/two-bustards-one-shrinking-desert-the-race-to-save-rajasthans-great-indian-bustard/3068902/" target="_blank">Read here →</a>
+
+</div>
+</div>
+
 
 <div class="work-card">
 
@@ -570,9 +609,4 @@ What an ancient banyan can reveal about its changing environment.
 Research into the overlooked role of rare bacteria in ocean ecosystems.
 </p>
 
-<a class="read-link" href="https://theprint.in/science/iit-madras-researchers-have-found-why-the-oceans-rare-bacteria-can-t-be-ignored/3017533/" target="_blank">Read here →</a>
-
-</div>
-</div>
-
-</div>
+<a class="read-
