@@ -1,3 +1,4 @@
+
 ---
 layout: page
 permalink: /work/
@@ -145,6 +146,46 @@ nav_order: 2
 <h2 class="work-section-title">Ground Reports</h2>
 
 <div class="work-grid">
+
+<div class="work-card">
+
+<div class="work-card-fallback">📰</div>
+
+<div class="work-card-content">
+
+<div class="work-card-category">Ground Report</div>
+
+<h3>Two Bustards, One Shrinking Desert: The Race to Save Rajasthan’s Great Indian Bustard</h3>
+
+<p class="work-card-description">
+A ground report on conservation efforts to save Rajasthan’s Great Indian Bustard.
+</p>
+
+<a class="read-link" href="https://theprint.in/ground-reports/two-bustards-one-shrinking-desert-the-race-to-save-rajasthans-great-indian-bustard/3068902/" target="_blank">Read here →</a>
+
+</div>
+</div>
+
+
+<div class="work-card">
+
+<div class="work-card-fallback">📰</div>
+
+<div class="work-card-content">
+
+<div class="work-card-category">Ground Report</div>
+
+<h3>How Shahjahanpur Brought Down Stubble-Burning Fires</h3>
+
+<p class="work-card-description">
+A ground report on how Shahjahanpur brought down stubble-burning fires.
+</p>
+
+<a class="read-link" href="https://theprint.in/ground-reports/how-shahjahanpur-brought-down-stubble-burning-fires/3093251/" target="_blank">Read here →</a>
+
+</div>
+</div>
+
 
 <div class="work-card">
 
