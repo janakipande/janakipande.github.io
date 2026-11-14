@@ -148,16 +148,16 @@ nav_order: 2
 
 <div class="work-card">
 
-<div class="work-card-fallback">🌾</div>
+<img class="work-card-image" src="https://api.microlink.io/?url=https://theprint.in/ground-reports/how-shahjahanpur-brought-down-stubble-burning-fires/3093251/&embed=image.url" alt="Farmers harvesting crop in Shahjahanpur">
 
 <div class="work-card-content">
 
 <div class="work-card-category">Ground Report</div>
 
-<h3>How Shahjahanpur brought down stubble burning fires</h3>
+<h3>How Shahjahanpur brought down stubble-burning fires</h3>
 
 <p class="work-card-description">
-Inside the district-level push, crop residue baler operations, and farmer incentives curbing farm fires in Uttar Pradesh.
+Baler operators, biogas plants and late-night farmer chaupals have turned UP’s Shahjahanpur, a former stubble-burning hotspot, into a case study.
 </p>
 
 <a class="read-link" href="https://theprint.in/ground-reports/how-shahjahanpur-brought-down-stubble-burning-fires/3093251/" target="_blank">Read here →</a>
@@ -168,7 +168,7 @@ Inside the district-level push, crop residue baler operations, and farmer incent
 
 <div class="work-card">
 
-<div class="work-card-fallback">🦩</div>
+<img class="work-card-image" src="https://api.microlink.io/?url=https://theprint.in/ground-reports/two-bustards-one-shrinking-desert-the-race-to-save-rajasthans-great-indian-bustard/3068902/&embed=image.url" alt="Great Indian Bustard in Rajasthan">
 
 <div class="work-card-content">
 
@@ -177,7 +177,7 @@ Inside the district-level push, crop residue baler operations, and farmer incent
 <h3>Two bustards, one shrinking desert: The race to save Rajasthan’s Great Indian Bustard</h3>
 
 <p class="work-card-description">
-Habitat loss, power line hazards, and captive breeding efforts in Rajasthan’s Desert National Park as fewer than 150 birds remain.
+At Rajasthan’s Great Indian Bustard Conservation Breeding Centre in Sam, scientists are in control. Beyond those walls is a harsher reality.
 </p>
 
 <a class="read-link" href="https://theprint.in/ground-reports/two-bustards-one-shrinking-desert-the-race-to-save-rajasthans-great-indian-bustard/3068902/" target="_blank">Read here →</a>
@@ -609,4 +609,4 @@ What an ancient banyan can reveal about its changing environment.
 Research into the overlooked role of rare bacteria in ocean ecosystems.
 </p>
 
-<a class="read-
+<a class="read-link" href="
