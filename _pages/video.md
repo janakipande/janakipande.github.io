@@ -1,128 +1,311 @@
 ---
 layout: page
-permalink: /videos/
-title: Videos
+title: Video
+permalink: /video/
 nav: true
-nav_order: 3
+nav_order: 6
 ---
 
 <style>
-.video-section-subtitle {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #555;
-  margin: 0 0 24px;
-  padding-bottom: 12px;
-  border-bottom: 1px solid #d9d9d9;
+.video-intro {
+  font-size: 18px;
+  line-height: 1.6;
+  font-style: italic;
+  color: #f2f2f2 !important;
+  font-weight: 500;
+  margin: 0 0 25px;
 }
 
-.video-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 20px;
-  margin-top: 20px;
-  margin-bottom: 60px;
+.video-divider {
+  border: 0;
+  border-top: 1px solid #d9d9d9;
+  margin: 0 0 32px;
+}
+
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .video-card {
-  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 169px;
+  gap: 20px;
+  align-items: center;
+  padding: 12px 14px;
   border: 1px solid #e5e7eb;
-  border-radius: 9px;
+  border-radius: 8px;
   background: #fff;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.video-card-thumbnail {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 165px;
-  overflow: hidden;
-  background: #000;
-}
-
-.video-card-thumbnail img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.25s ease, opacity 0.25s ease;
-}
-
-.video-card:hover .video-card-thumbnail img {
-  transform: scale(1.03);
-  opacity: 0.9;
+.video-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.08);
 }
 
 .video-card-content {
-  padding: 13px 15px 15px;
+  min-width: 0;
 }
 
-.video-card-category {
-  margin-bottom: 5px;
-  font-size: 9px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: #777;
+.video-card-type {
+  margin: 0 0 5px;
+  color: #555 !important;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.12em;
+  font-weight: 600;
 }
 
-.video-card h3 {
-  margin: 0 0 7px;
-  font-size: 16px;
-  line-height: 1.4;
+.video-card-title {
+  margin: 0 0 8px;
   color: #000 !important;
+  font-size: 19px;
+  line-height: 1.35;
+  font-weight: 600;
 }
 
 .video-card-description {
-  margin: 0 0 10px;
-  font-size: 12px;
+  margin: 0;
+  color: #555 !important;
+  font-size: 15px;
   line-height: 1.5;
-  color: #666;
+  font-style: italic;
 }
 
-.video-card a.watch-link {
-  font-size: 12px;
-  font-weight: 600;
-  text-decoration: none;
+.video-card-image {
+  width: 169px;
+  height: 95px;
+  object-fit: contain;
+  display: block;
+  border-radius: 5px;
 }
 
-@media (max-width: 1000px) {
-  .video-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-
-@media (max-width: 600px) {
-  .video-grid {
+@media (max-width: 650px) {
+  .video-card {
     grid-template-columns: 1fr;
-    gap: 14px;
-    margin-bottom: 45px;
+  }
+
+  .video-card-image {
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    object-fit: contain;
   }
 }
 </style>
 
-<p class="video-section-subtitle">Interviews, ground reports, and explainers produced at ThePrint.</p>
+<p class="video-intro">
+  Interviews, ground reports, and explainers produced at <em>ThePrint</em>.
+</p>
 
-<div class="video-grid">
+<hr class="video-divider">
 
-  <!-- NEW GROUND REPORT VIDEO 1 -->
-  <div class="video-card">
-    <a class="video-card-thumbnail" href="https://www.youtube.com/watch?v=7XAlBSOIV2w" target="_blank">
-      <img src="https://img.youtube.com/vi/7XAlBSOIV2w/hqdefault.jpg" alt="How Uttar Pradesh's Shahjahanpur brought down stubble-burning fires">
-    </a>
+<div class="video-list">
+
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=7XAlBSOIV2w"
+     target="_blank"
+     rel="noopener">
+
     <div class="video-card-content">
-      <div class="video-card-category">Ground Report</div>
-      <h3>How Uttar Pradesh's Shahjahanpur brought down stubble-burning fires</h3>
+
+      <p class="video-card-type">
+        GROUND REPORT
+      </p>
+
+      <p class="video-card-title">
+        How Uttar Pradesh's Shahjahanpur brought down stubble-burning fires
+      </p>
+
       <p class="video-card-description">
         How baler operators, compressed biogas plants, and late-night farmer chaupals curbed stubble burning in Shahjahanpur.
       </p>
-      <a class="watch-link" href="https://www.youtube.com/watch?v=7XAlBSOIV2w" target="_blank">Watch video →</a>
-    </div>
-  </div>
 
-  <!-- NEW GROUND REPORT VIDEO 2 -->
-  <div class="video-card">
-    <a class="video-card-thumbnail" href="https://www.youtube.com/watch?v=frRF9esLF-Y" target="_blank">
-      <img src="https://img.youtube.com/vi/frRF9esLF-Y/hqdefault.jpg" alt="Two bustards, one shrinking desert: The race to save Rajasthan's Great Indian Bustard">
-    </a>
-    <div
+    </div>
+
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/7XAlBSOIV2w/hqdefault.jpg"
+      alt="Ground report from Shahjahanpur on stubble burning">
+
+  </a>
+
+
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=frRF9esLF-Y"
+     target="_blank"
+     rel="noopener">
+
+    <div class="video-card-content">
+
+      <p class="video-card-type">
+        GROUND REPORT
+      </p>
+
+      <p class="video-card-title">
+        Two bustards, one shrinking desert: The race to save Rajasthan's Great Indian Bustard
+      </p>
+
+      <p class="video-card-description">
+        Inside Desert National Park’s captive breeding efforts and the struggle to protect the critically endangered Great Indian Bustard.
+      </p>
+
+    </div>
+
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/frRF9esLF-Y/hqdefault.jpg"
+      alt="Ground report on Rajasthan's Great Indian Bustard">
+
+  </a>
+
+
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=u2A_I6TFYMs&t=8s"
+     target="_blank"
+     rel="noopener">
+
+    <div class="video-card-content">
+
+      <p class="video-card-type">
+        GROUND REPORT
+      </p>
+
+      <p class="video-card-title">
+        Red rot is ravaging UP’s sugarcane belt. Farmers pinning hopes on scientists for a way out
+      </p>
+
+      <p class="video-card-description">
+        Western Uttar Pradesh’s sugarcane farmers battle a devastating fungal outbreak as scientists race to develop resistant varieties.
+      </p>
+
+    </div>
+
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/u2A_I6TFYMs/hqdefault.jpg"
+      alt="Ground report on red rot in UP's sugarcane belt">
+
+  </a>
+
+
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=Iy_HxvwfDOM"
+     target="_blank"
+     rel="noopener">
+
+    <div class="video-card-content">
+
+      <p class="video-card-type">
+        INTERVIEW
+      </p>
+
+      <p class="video-card-title">
+        Sandesh Kadur's love letter to the Nilgiris
+      </p>
+
+      <p class="video-card-description">
+        An interview with wildlife filmmaker and conservationist Sandesh Kadur.
+      </p>
+
+    </div>
+
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/Iy_HxvwfDOM/hqdefault.jpg"
+      alt="Interview with Sandesh Kadur">
+
+  </a>
+
+
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=1rYDqxuG0xM"
+     target="_blank"
+     rel="noopener">
+
+    <div class="video-card-content">
+
+      <p class="video-card-type">
+        INTERVIEW
+      </p>
+
+      <p class="video-card-title">
+        Can Pravaha University change Bihar?
+      </p>
+
+      <p class="video-card-description">
+        An interview with Dr Pramath Raj Sinha and Dr Ajay Kumar, the founders of Pravaha University.
+      </p>
+
+    </div>
+
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/1rYDqxuG0xM/hqdefault.jpg"
+      alt="Interview with Pravaha founders">
+
+  </a>
+
+
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=HUJoyQ5Qlo4"
+     target="_blank"
+     rel="noopener">
+
+    <div class="video-card-content">
+
+      <p class="video-card-type">
+        PROFILE
+      </p>
+
+      <p class="video-card-title">
+        V Kamakoti: An academic full of contradictions
+      </p>
+
+      <p class="video-card-description">
+        A video profile of IIT Madras director V. Kamakoti.
+      </p>
+
+    </div>
+
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/HUJoyQ5Qlo4/hqdefault.jpg"
+      alt="Video profile of V. Kamakoti">
+
+  </a>
+
+
+  <a class="video-card"
+     href="https://www.youtube.com/watch?v=P7Uog9IXiCw"
+     target="_blank"
+     rel="noopener">
+
+    <div class="video-card-content">
+
+      <p class="video-card-type">
+        PROFILE
+      </p>
+
+      <p class="video-card-title">
+        Rohan P Naidu: The quizzer who found a black hole star
+      </p>
+
+      <p class="video-card-description">
+        A video profile of astrophysicist Rohan P Naidu.
+      </p>
+
+    </div>
+
+    <img
+      class="video-card-image"
+      src="https://img.youtube.com/vi/P7Uog9IXiCw/hqdefault.jpg"
+      alt="Video profile of Rohan P Naidu">
+
+  </a>
+
+</div>
